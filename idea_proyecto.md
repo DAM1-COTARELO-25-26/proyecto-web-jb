@@ -8,14 +8,14 @@ El sitio busca atraer a un público joven y dinámico que valora el rendimiento,
 
 ##  Paleta de Colores
 
-| Rol | Nombre | Hex | Muestra |
-|------|---------|------|:------:|
-| Fondo principal | Negro puro | `#0C0C0C` | ■ |
-| Fondo secundario | Gris carbón | `#1F1F1F` | ■ |
-| Acento primario | Verde turquesa neón | `#00FFCC` | ■ |
-| Acento secundario | Morado eléctrico | `#8A2BE2` | ■ |
-| Texto principal | Blanco cálido | `#E6E6E6` | ■ |
-| Texto/acento sobre oscuro | Blanco puro | `#FFFFFF` | ■ |
+| Rol | Nombre | Hex |
+|------|---------|------|
+| Fondo principal | Negro puro | `#0C0C0C` |
+| Fondo secundario | Gris carbón | `#1F1F1F` |
+| Acento primario | Verde turquesa neón | `#00FFCC` |
+| Acento secundario | Morado eléctrico | `#8A2BE2` |
+| Texto principal | Blanco cálido | `#E6E6E6` |
+| Texto/acento sobre oscuro | Blanco puro | `#FFFFFF` |
 
 ---
 
