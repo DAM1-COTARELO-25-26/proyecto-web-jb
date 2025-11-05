@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: "Exo 2";
+  text-align: center;
+}
+
+.menu {
+  background-color: #0c0c0c;
+  display: inline-block;/* El menú solo ocupa el ancho de sus botones */
+}
+
+.menu a {
+  color: #e6e6e6;
+  padding: 14px 18px;
+  text-decoration: none;
+  display: inline-block;/* Los items se colocan uno al lado del otro */
+}
+
+.menu a:hover {
+  background-color: blue;
+}
+
+.item-menu {
+  display: inline-block;
+  position: relative;
+}
+
+.submenu {
+  display: none;/*Ocultar submenu */
+  position: absolute; /*Posiciona el submenu de forma absoluta respecto al contenedor*/
+  background-color: #0c0c0c;
+  min-width: 200px; /*Ancho minimo de 200 pixeles*/
+  top: 100%; /*Posiciona el submenu debajo del elemento padre */
+  left: 0; /*Alinea el borde izquierdo del submenú con el borde izquierdo del `.item-menu`*/
+}
+
+.item-menu:hover .submenu {
+  display: block; /*Para hacer el submenu visible cuando pasas el raton*/
+}
+
+.submenu a {
+  display: block;/*Hace que cada enlace del submenú ocupe toda la línea*/
+  border-bottom: 1px solid #555;
+}
