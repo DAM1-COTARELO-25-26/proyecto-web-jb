@@ -2,43 +2,66 @@ body {
   margin: 0;
   font-family: "Exo 2";
   text-align: center;
+  background-color: #111;
 }
 
+/* Contenedor principal del menú */
 .menu {
   background-color: #0c0c0c;
-  display: inline-block;/* El menú solo ocupa el ancho de sus botones */
+  display: inline-block; /* El menú solo ocupa el ancho de sus botones */
 }
 
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Elementos principales del menú */
+.menu > ul > li {
+  display: inline-block; /* Coloca los items uno al lado del otro */
+  position: relative;    /* Necesario para posicionar el submenu */
+}
+
+/* Enlaces generales del menú */
 .menu a {
   color: #e6e6e6;
   padding: 14px 18px;
   text-decoration: none;
-  display: inline-block;/* Los items se colocan uno al lado del otro */
+  display: block; /* Hace clicable todo el área */
 }
 
+/* Efecto hover */
 .menu a:hover {
   background-color: blue;
 }
 
-.item-menu {
-  display: inline-block;
-  position: relative;
-}
-
+/* Submenú oculto por defecto */
 .submenu {
-  display: none;/*Ocultar submenu */
-  position: absolute; /*Posiciona el submenu de forma absoluta respecto al contenedor*/
+  display: none; /* Ocultar submenu */
+  position: absolute; /* Posiciona de forma absoluta respecto al padre */
   background-color: #0c0c0c;
-  min-width: 200px; /*Ancho minimo de 200 pixeles*/
-  top: 100%; /*Posiciona el submenu debajo del elemento padre */
-  left: 0; /*Alinea el borde izquierdo del submenú con el borde izquierdo del `.item-menu`*/
+  min-width: 200px; /* Ancho mínimo del submenú */
+  top: 100%; /* Posiciona debajo del elemento padre */
+  left: 0; /* Alinea con el borde izquierdo */
+  z-index: 1000; /* Asegura que se muestre encima de otros elementos */
 }
 
+/* Muestra el submenú al pasar el ratón */
 .item-menu:hover .submenu {
-  display: block; /*Para hacer el submenu visible cuando pasas el raton*/
+  display: block;
 }
 
+/* Enlaces dentro del submenú */
 .submenu a {
-  display: block;/*Hace que cada enlace del submenú ocupe toda la línea*/
+  display: block;
   border-bottom: 1px solid #555;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Hover dentro del submenú */
+.submenu a:hover {
+  background-color: blue;
 }
