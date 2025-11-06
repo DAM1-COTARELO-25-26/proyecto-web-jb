@@ -4,11 +4,26 @@ body {
   text-align: center;
   background-color: #111;
 }
+.cabecera {
+  background-color: #0c0c0c;
+  display: flex;
+  align-items: center;
+   justify-content: space-between; /* separa logo y menú */
+  padding: 10px 20px;
+}
+
+.logo img {
+  height: 50px;
+ 
+   
+}
 
 /* Contenedor principal del menú */
 .menu {
+   flex: 1; /* el menú ocupa el espacio disponible */
+  display: flex;
+  justify-content: center; /* centra el menú horizontalmente */
   background-color: #0c0c0c;
-  display: inline-block; /* El menú solo ocupa el ancho de sus botones */
 }
 
 
