@@ -1,0 +1,103 @@
+/* 1. Estilos Globales: Fondo más oscuro */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222; 
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* 2. Contenedor principal de la tarjeta */
+.product-card {
+    width: 750px; /* Aumento ligeramente el ancho para que la estructura sea más clara */
+    background-color: #333; 
+    color: #fff; 
+    border: 1px solid #444; 
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); 
+    overflow: hidden;
+    /* La tarjeta es una columna (Fila superior + Botón) */
+    display: flex;
+    flex-direction: column; 
+    
+}
+
+/* 3. Contenedor de contenido superior: Hace que la imagen y los detalles estén en fila */
+.content-wrapper {
+    display: flex;
+    flex-direction: row; /* Clave: Pone los hijos (imagen y texto) uno al lado del otro */
+    align-items: flex-start;
+    padding: 20px ; /* Espacio vertical para el contenido */
+}
+
+/* 4. Estilo de la imagen (Ajustado al 25% y a la izquierda) */
+.product-header {
+    /* La imagen ocupa el 25% del ancho de content-wrapper */
+    flex: 0 0 25%; 
+    padding: 0 10px 0 15px; /* Ajuste de padding para el margen izquierdo */
+    border-right: 1px solid #444;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+}
+
+/* 5. Detalles del producto (Texto - Ocupa el 75% restante) */
+.product-details {
+    flex: 1; /* Ocupa el espacio restante */
+    padding: 0 15px;
+}
+
+.product-title {
+    font-size: 1.5em;
+    color: #00bfff; 
+    margin: 0 0 10px 0;
+}
+
+.product-spec {
+    font-size: 1em;
+    color: #ccc;
+    margin: 0 0 5px 0;
+}
+
+.product-description {
+    font-size: 0.9em;
+    color: #aaa;
+    margin: 10px 0 15px 0;
+    line-height: 1.4; 
+}
+
+.product-price {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #ffcc00; 
+    margin: 10px 0 0 0; 
+}
+
+/* 6. Sección del botón (Abajo, ancho completo) */
+.product-actions {
+    padding: 15px;
+    border-top: 1px solid #444;
+    text-align: center; 
+}
+
+.buy-button {
+    background-color: #00bfff; 
+    color: #111; 
+    border: none;
+    padding: 12px 25px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; 
+}
+
+.buy-button:hover {
+    background-color: #0099cc; 
+}
