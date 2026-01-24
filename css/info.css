@@ -1,69 +1,187 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Exo 2', sans-serif;
-    background-color: #0C0C0C;
-    color: #E6E6E6;
-    margin: 0;
-    padding: 0;
+    background-color: #0b0e14; /* Fondo oscuro de tu web */
+    color: #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+  .cabecera {
+  background-color: #161b22;
+  display: flex;
+  align-items: center;
+   justify-content: space-between; /* separa logo y menú */
+  padding: 10px 20px;
+}
+
+.logo img {
+  height: 50px;
+ 
+   
+}
+
+/* Contenedor principal del menú */
+.menu {
+   flex: 1; /* el menú ocupa el espacio disponible */
+  display: flex;
+  justify-content: center; /* centra el menú horizontalmente */
+  background-color: #0c0c0c;
 }
 
 
-header {
-    background-color: #1F1F1F;
-    text-align: center;
-    padding: 20px;
-    border-bottom: 2px solid #00FFCC;
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-header h1 {
-    font-family: 'Orbitron', sans-serif;
-    color: #00FFCC;
-    font-size: 2em;
+/* Elementos principales del menú */
+.menu > ul > li {
+  display: inline-block; /* Coloca los items uno al lado del otro */
+  position: relative;    /* Necesario para posicionar el submenu */
 }
 
+/* Enlaces generales del menú */
+.menu a {
+  color: #e6e6e6;
+  padding: 14px 18px;
+  text-decoration: none;
+  display: block; /* Hace clicable todo el área */
+}
 
+/* Efecto hover */
+.menu a:hover {
+  background-color: blue;
+}
+
+/* Submenú oculto por defecto */
+.submenu {
+  display: none; /* Ocultar submenu */
+  position: absolute; /* Posiciona de forma absoluta respecto al padre */
+  background-color: #0c0c0c;
+  min-width: 200px; /* Ancho mínimo del submenú */
+  top: 100%; /* Posiciona debajo del elemento padre */
+  left: 0; /* Alinea con el borde izquierdo */
+  z-index: 1000; /* Asegura que se muestre encima de otros elementos */
+}
+
+/* Muestra el submenú al pasar el ratón */
+.item-menu:hover .submenu {
+  display: block;
+}
+
+/* Enlaces dentro del submenú */
+.submenu a {
+  display: block;
+  border-bottom: 1px solid #555;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Hover dentro del submenú */
+.submenu a:hover {
+  background-color: blue;
+}
+/* ===================================== */
+/* 2. CABECERA (Ajustada a tu estilo) */
+/* ===================================== */
+.cabecera {
+    background-color: #161b22;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    border-bottom: 1px solid #30363d;
+}
+
+.logo img {
+    height: 50px;
+    display: block;
+}
+
+/* ===================================== */
+/* 3. CONTENIDO (MAIN) */
+/* ===================================== */
 main {
+    flex: 1; /* Empuja el footer hacia abajo */
     max-width: 900px;
-    margin: 30px auto;
-    background-color: #1F1F1F;
-    padding: 20px;
-    border-radius: 8px;
+    margin: 40px auto;
+    background-color: #1c2128; /* Gris azulado del formulario */
+    padding: 40px;
+    border-radius: 12px;
+    border: 1px solid #30363d;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    text-align: left; /* Mejor legibilidad para textos largos */
 }
 
 h2 {
-    font-family: 'Orbitron', sans-serif;
-    color: #8A2BE2;
-    border-left: 4px solid #00FFCC;
-    padding-left: 8px;
+    font-family: 'Exo 2', sans-serif;
+    color: #58a6ff; /* Azul profesional */
+    border-left: 4px solid #0066ff;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+h2:first-of-type {
+    margin-top: 0;
 }
 
 p, li {
-    font-size: 1em;
-    line-height: 1.6;
+    font-size: 1.05em;
+    line-height: 1.8;
+    color: #c9d1d9; /* Gris suave para lectura */
+    margin-bottom: 15px;
 }
 
 ul {
-    margin-left: 20px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 10px;
 }
 
 strong {
-    color: #00FFCC;
+    color: #58a6ff; /* Resaltados en azul */
 }
 
+/* ===================================== */
+/* 4. FOOTER (Ajustado a tu estilo) */
+/* ===================================== */
 footer {
-    background-color: #1F1F1F;
+    background-color: #161b22;
     text-align: center;
-    padding: 15px;
-    border-top: 2px solid #8A2BE2;
+    padding: 30px;
+    border-top: 1px solid #30363d;
     font-size: 0.9em;
 }
 
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
 footer a {
-    color: #00FFCC;
+    color: #58a6ff;
     text-decoration: none;
+    transition: color 0.3s;
 }
 
 footer a:hover {
+    color: #1f6feb;
     text-decoration: underline;
 }

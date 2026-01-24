@@ -6,17 +6,98 @@
   <link rel="stylesheet" href="/css/formulario.css">
 </head>
 <body>
-  <form>
-    <label>Nombre:</label>
-    <input type="text" name="nombre">
-    
-    <label>Apellidos:</label>
-    <input type="text" name="apellidos">
-    
-    <label>Correo:</label>
-    <input type="email" name="correo">
-    
-    <input type="submit" value="Enviar">
+    <div class="cabecera">
+      <div class="logo">
+        <img src="/img/logo.png" alt="Logo">
+      </div>
+    <nav class="menu">
+        <ul>
+          <li><a href="/index.html">Inicio</a></li>
+          
+          <li class="item-menu">
+            <a href="#">Componentes</a>
+            <ul class="submenu">
+              <li><a href="/pages/placa_base.html">Placa Base</a></li>
+              <li><a href="/pages/Procesador.html">Procesador</a></li>
+              <li><a href="/pages/grafica.html">Tarjeta Gráfica</a></li>
+              <li><a href="/pages/Memorias_Ram.html">Memoria RAM</a></li>
+              <li><a href="/pages/Fuentes_alimentacion.html">Fuente de Alimentación</a></li>
+              <li><a href="/pages/Perifericos.html">Periféricos</a></li>
+            </ul>
+          </li>
+          
+          <li><a href="/pages/Contacto.html">Contactos</a></li>
+          <li><a href="/pages/Informacion.html">Información</a></li>
+        </ul>
+      </nav>
+    </div>
+ <main class="main-content">
+  <form action="#" method="post">
+    <h2>Formulario de Contacto</h2>
+    <p class="form-subtitle">Cuéntanos qué necesitas y te responderemos pronto.</p>
+
+    <div class="form-group">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+    </div>
+
+    <div class="form-group">
+      <label for="apellidos">Apellidos:</label>
+      <input type="text" id="apellidos" name="apellidos" placeholder="Tus apellidos" required>
+    </div>
+
+    <div class="form-group">
+      <label for="correo">Correo Electrónico:</label>
+      <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+    </div>
+
+    <div class="form-group">
+      <label for="telefono">Teléfono (opcional):</label>
+      <input type="tel" id="telefono" name="telefono" placeholder="600 000 000">
+    </div>
+
+    <div class="form-group">
+      <label for="motivo">Motivo de consulta:</label>
+      <select id="motivo" name="motivo">
+        <option value="presupuesto">Solicitar Presupuesto</option>
+        <option value="soporte">Soporte Técnico</option>
+        <option value="devolucion">Devoluciones</option>
+        <option value="otros">Otros</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="mensaje">Tu Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe aquí tu consulta detallada..." required></textarea>
+    </div>
+
+    <div class="form-checkbox">
+      <input type="checkbox" id="privacidad" name="privacidad" required>
+      <label for="privacidad">Acepto la <span>política de privacidad</span></label>
+    </div>
+
+    <input type="submit" value="Enviar Formulario">
   </form>
+</main>
+      <footer class="footer">
+  <div class="footer-container">
+    
+    
+    <div class="footer-logo">
+      <img src="/img/logo.png" alt="Logo Empresa">
+    </div>
+    
+    
+    <div class="footer-email">
+       <a href="mailto:jb@gmail.com">jb@gmail.com</a>
+    </div>
+    
+    
+    <div class="footer-creators">
+      <p>Creado por: <span>Borja Abal & Javier Goldar</span></p>
+    </div>
+    
+  </div>
+</footer>
 </body>
 </html>
