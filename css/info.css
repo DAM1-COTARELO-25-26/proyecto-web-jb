@@ -13,7 +13,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
-  .cabecera {
+ .cabecera {
   background-color: #161b22;
   display: flex;
   align-items: center;
@@ -89,22 +89,7 @@ body {
 .submenu a:hover {
   background-color: blue;
 }
-/* ===================================== */
-/* 2. CABECERA (Ajustada a tu estilo) */
-/* ===================================== */
-.cabecera {
-    background-color: #161b22;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 40px;
-    border-bottom: 1px solid #30363d;
-}
 
-.logo img {
-    height: 50px;
-    display: block;
-}
 
 /* ===================================== */
 /* 3. CONTENIDO (MAIN) */
