@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procesadores>
+    <procesador>
+        <modelo></modelo>
+        <nucleos></nucleos>
+        <socket></socket>
+        <frecuencia></frecuencia>
+        <precio></precio>
+        <accion></accion>
+    </procesador>
+</procesadores>
