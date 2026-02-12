@@ -1,247 +1,250 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<unidad_central_proceso tienda="JB">
-    
-    <fabricante nombre="Intel" arquitectura="x86_64">
-        <chip id="INT-14900K" serie="Core i9" destacado="true">
-            <modelo>Intel Core i9-14900K</modelo>
-            <rendimiento>
-                <nucleos_hilos>24 / 32</nucleos_hilos>
-                <socket>LGA1700</socket>
-                <frecuencia unidad="GHz">6.0</frecuencia>
-            </rendimiento>
-            <precio moneda="EUR">679.00</precio>
-            <estado disponible="true">15</estado>
-            <fechaRegistro>2025-10-17</fechaRegistro>
-        </chip>
+<tienda nombre="JB" ubicacion="España">
+    <inventario categoria="Procesadores" fechaActualizacion="2026-02-12">
 
-        <chip id="INT-14700K" serie="Core i7" destacado="false">
-            <modelo>Intel Core i7-14700K</modelo>
-            <rendimiento>
-                <nucleos_hilos>20 / 28</nucleos_hilos>
-                <socket>LGA1700</socket>
-                <frecuencia unidad="GHz">5.6</frecuencia>
-            </rendimiento>
-            <precio moneda="EUR">499.00</precio>
-            <estado disponible="true">22</estado>
-            <fechaRegistro>2025-10-17</fechaRegistro>
-        </chip>
+        <fabricante nombre="Intel" arquitectura="x86_64">
+            <chip id="INT-14900K" destacado="true" disponible="true">
+                <modelo>Intel Core i9-14900K</modelo>
+                <especificaciones>
+                    <nucleos_hilos>24 / 32</nucleos_hilos>
+                    <socket>LGA1700</socket>
+                    <frecuencia unidad="GHz">6.0</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">679.00</precio>
+                <stock_actual>15</stock_actual>
+                <fechaRegistro>2025-10-17</fechaRegistro>
+            </chip>
 
-        <chip id="INT-14600K" serie="Core i5" destacado="false">
-            <modelo>Intel Core i5-14600K</modelo>
-            <rendimiento>
-                <nucleos_hilos>14 / 20</nucleos_hilos>
-                <socket>LGA1700</socket>
-                <frecuencia unidad="GHz">5.3</frecuencia>
-            </rendimiento>
-            <precio moneda="EUR">379.00</precio>
-            <estado disponible="true">40</estado>
-            <fechaRegistro>2025-10-17</fechaRegistro>
-        </chip>
+            <chip id="INT-14700K" destacado="false" disponible="true">
+                <modelo>Intel Core i7-14700K</modelo>
+                <especificaciones>
+                    <nucleos_hilos>20 / 28</nucleos_hilos>
+                    <socket>LGA1700</socket>
+                    <frecuencia unidad="GHz">5.6</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">499.00</precio>
+                <stock_actual>22</stock_actual>
+                <fechaRegistro>2025-10-17</fechaRegistro>
+            </chip>
 
-        <chip id="INT-13900K" serie="Core i9" destacado="false">
-            <modelo>Intel Core i9-13900K</modelo>
-            <rendimiento>
-                <nucleos_hilos>24 / 32</nucleos_hilos>
-                <socket>LGA1700</socket>
-                <frecuencia unidad="GHz">5.8</frecuencia>
-            </rendimiento>
-            <precio moneda="EUR">599.00</precio>
-            <estado disponible="true">8</estado>
-            <fechaRegistro>2024-11-20</fechaRegistro>
-        </chip>
+            <chip id="INT-14600K" destacado="false" disponible="true">
+                <modelo>Intel Core i5-14600K</modelo>
+                <especificaciones>
+                    <nucleos_hilos>14 / 20</nucleos_hilos>
+                    <socket>LGA1700</socket>
+                    <frecuencia unidad="GHz">5.3</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">379.00</precio>
+                <stock_actual>40</stock_actual>
+                <fechaRegistro>2025-10-17</fechaRegistro>
+            </chip>
 
-        <chip id="INT-13700K" serie="Core i7" destacado="false">
-            <modelo>Intel Core i7-13700K</modelo>
-            <rendimiento>
-                <nucleos_hilos>16 / 24</nucleos_hilos>
-                <socket>LGA1700</socket>
-                <frecuencia unidad="GHz">5.4</frecuencia>
-            </rendimiento>
-            <precio moneda="EUR">429.00</precio>
-            <estado disponible="true">12</estado>
-            <fechaRegistro>2024-11-20</fechaRegistro>
-        </chip>
+            <chip id="INT-13900K" destacado="false" disponible="true">
+                <modelo>Intel Core i9-13900K</modelo>
+                <especificaciones>
+                    <nucleos_hilos>24 / 32</nucleos_hilos>
+                    <socket>LGA1700</socket>
+                    <frecuencia unidad="GHz">5.8</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">599.00</precio>
+                <stock_actual>8</stock_actual>
+                <fechaRegistro>2024-11-20</fechaRegistro>
+            </chip>
 
-        <chip id="INT-13600K" serie="Core i5" destacado="false">
-            <modelo>Intel Core i5-13600K</modelo>
-            <rendimiento>
-                <nucleos_hilos>14 / 20</nucleos_hilos>
-                <socket>LGA1700</socket>
-                <frecuencia unidad="GHz">5.1</frecuencia>
-            </rendimiento>
-            <precio moneda="EUR">329.00</precio>
-            <estado disponible="true">30</estado>
-            <fechaRegistro>2024-11-20</fechaRegistro>
-        </chip>
+            <chip id="INT-13700K" destacado="false" disponible="true">
+                <modelo>Intel Core i7-13700K</modelo>
+                <especificaciones>
+                    <nucleos_hilos>16 / 24</nucleos_hilos>
+                    <socket>LGA1700</socket>
+                    <frecuencia unidad="GHz">5.4</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">429.00</precio>
+                <stock_actual>12</stock_actual>
+                <fechaRegistro>2024-11-20</fechaRegistro>
+            </chip>
 
-        <chip id="INT-12900K" serie="Core i9" destacado="false">
-            <modelo>Intel Core i9-12900K</modelo>
-            <rendimiento>
-                <nucleos_hilos>16 / 24</nucleos_hilos>
-                <socket>LGA1700</socket>
-                <frecuencia unidad="GHz">5.2</frecuencia>
-            </rendimiento>
-            <precio moneda="EUR">449.00</precio>
-            <estado disponible="true">5</estado>
-            <fechaRegistro>2023-12-05</fechaRegistro>
-        </chip>
+            <chip id="INT-13600K" destacado="false" disponible="true">
+                <modelo>Intel Core i5-13600K</modelo>
+                <especificaciones>
+                    <nucleos_hilos>14 / 20</nucleos_hilos>
+                    <socket>LGA1700</socket>
+                    <frecuencia unidad="GHz">5.1</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">329.00</precio>
+                <stock_actual>30</stock_actual>
+                <fechaRegistro>2024-11-20</fechaRegistro>
+            </chip>
 
-        <chip id="INT-12700F" serie="Core i7" destacado="false">
-            <modelo>Intel Core i7-12700F</modelo>
-            <rendimiento>
-                <nucleos_hilos>12 / 20</nucleos_hilos>
-                <socket>LGA1700</socket>
-                <frecuencia unidad="GHz">4.9</frecuencia>
-            </rendimiento>
-            <precio moneda="EUR">299.00</precio>
-            <estado disponible="true">18</estado>
-            <fechaRegistro>2024-01-10</fechaRegistro>
-        </chip>
+            <chip id="INT-12900K" destacado="false" disponible="true">
+                <modelo>Intel Core i9-12900K</modelo>
+                <especificaciones>
+                    <nucleos_hilos>16 / 24</nucleos_hilos>
+                    <socket>LGA1700</socket>
+                    <frecuencia unidad="GHz">5.2</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">449.00</precio>
+                <stock_actual>5</stock_actual>
+                <fechaRegistro>2023-12-05</fechaRegistro>
+            </chip>
 
-        <chip id="INT-12400F" serie="Core i5" destacado="false">
-            <modelo>Intel Core i5-12400F</modelo>
-            <rendimiento>
-                <nucleos_hilos>6 / 12</nucleos_hilos>
-                <socket>LGA1700</socket>
-                <frecuencia unidad="GHz">4.4</frecuencia>
-            </rendimiento>
-            <precio moneda="EUR">179.00</precio>
-            <estado disponible="true">50</estado>
-            <fechaRegistro>2024-01-10</fechaRegistro>
-        </chip>
+            <chip id="INT-12700F" destacado="false" disponible="true">
+                <modelo>Intel Core i7-12700F</modelo>
+                <especificaciones>
+                    <nucleos_hilos>12 / 20</nucleos_hilos>
+                    <socket>LGA1700</socket>
+                    <frecuencia unidad="GHz">4.9</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">299.00</precio>
+                <stock_actual>18</stock_actual>
+                <fechaRegistro>2024-01-10</fechaRegistro>
+            </chip>
 
-        <chip id="INT-12100F" serie="Core i3" destacado="false">
-            <modelo>Intel Core i3-12100F</modelo>
-            <rendimiento>
-                <nucleos_hilos>4 / 8</nucleos_hilos>
-                <socket>LGA1700</socket>
-                <frecuencia unidad="GHz">4.3</frecuencia>
-            </rendimiento>
-            <precio moneda="EUR">99.00</precio>
-            <estado disponible="false">0</estado>
-            <fechaRegistro>2024-01-10</fechaRegistro>
-        </chip>
-    </fabricante>
+            <chip id="INT-12400F" destacado="false" disponible="true">
+                <modelo>Intel Core i5-12400F</modelo>
+                <especificaciones>
+                    <nucleos_hilos>6 / 12</nucleos_hilos>
+                    <socket>LGA1700</socket>
+                    <frecuencia unidad="GHz">4.4</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">179.00</precio>
+                <stock_actual>50</stock_actual>
+                <fechaRegistro>2024-01-10</fechaRegistro>
+            </chip>
 
-    <fabricante nombre="AMD" arquitectura="Zen 4 / Zen 3">
-        <chip id="AMD-7950X" serie="Ryzen 9" destacado="true">
-            <modelo>AMD Ryzen 9 7950X</modelo>
-            <rendimiento>
-                <nucleos_hilos>16 / 32</nucleos_hilos>
-                <socket>AM5</socket>
-                <frecuencia unidad="GHz">5.7</frecuencia>
-            </rendimiento>
-            <precio moneda="EUR">649.00</precio>
-            <estado disponible="true">10</estado>
-            <fechaRegistro>2025-01-20</fechaRegistro>
-        </chip>
+            <chip id="INT-12100F" destacado="false" disponible="false">
+                <modelo>Intel Core i3-12100F</modelo>
+                <especificaciones>
+                    <nucleos_hilos>4 / 8</nucleos_hilos>
+                    <socket>LGA1700</socket>
+                    <frecuencia unidad="GHz">4.3</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">99.00</precio>
+                <stock_actual>0</stock_actual>
+                <fechaRegistro>2024-01-10</fechaRegistro>
+            </chip>
+        </fabricante>
 
-        <chip id="AMD-7900X" serie="Ryzen 9" destacado="false">
-            <modelo>AMD Ryzen 9 7900X</modelo>
-            <rendimiento>
-                <nucleos_hilos>12 / 24</nucleos_hilos>
-                <socket>AM5</socket>
-                <frecuencia unidad="GHz">5.6</frecuencia>
-            </rendimiento>
-            <precio moneda="EUR">499.00</precio>
-            <estado disponible="true">14</estado>
-            <fechaRegistro>2025-02-05</fechaRegistro>
-        </chip>
+        <fabricante nombre="AMD" arquitectura="Zen 4 / Zen 3">
+            <chip id="AMD-7950X" destacado="true" disponible="true">
+                <modelo>AMD Ryzen 9 7950X</modelo>
+                <especificaciones>
+                    <nucleos_hilos>16 / 32</nucleos_hilos>
+                    <socket>AM5</socket>
+                    <frecuencia unidad="GHz">5.7</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">649.00</precio>
+                <stock_actual>10</stock_actual>
+                <fechaRegistro>2025-01-20</fechaRegistro>
+            </chip>
 
-        <chip id="AMD-7800X3D" serie="Ryzen 7" destacado="true">
-            <modelo>AMD Ryzen 7 7800X3D</modelo>
-            <rendimiento>
-                <nucleos_hilos>8 / 16</nucleos_hilos>
-                <socket>AM5</socket>
-                <frecuencia unidad="GHz">5.0</frecuencia>
-            </rendimiento>
-            <precio moneda="EUR">399.00</precio>
-            <estado disponible="true">5</estado>
-            <fechaRegistro>2026-01-10</fechaRegistro>
-        </chip>
+            <chip id="AMD-7900X" destacado="false" disponible="true">
+                <modelo>AMD Ryzen 9 7900X</modelo>
+                <especificaciones>
+                    <nucleos_hilos>12 / 24</nucleos_hilos>
+                    <socket>AM5</socket>
+                    <frecuencia unidad="GHz">5.6</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">499.00</precio>
+                <stock_actual>14</stock_actual>
+                <fechaRegistro>2025-02-05</fechaRegistro>
+            </chip>
 
-        <chip id="AMD-7700X" serie="Ryzen 7" destacado="false">
-            <modelo>AMD Ryzen 7 7700X</modelo>
-            <rendimiento>
-                <nucleos_hilos>8 / 16</nucleos_hilos>
-                <socket>AM5</socket>
-                <frecuencia unidad="GHz">5.4</frecuencia>
-            </rendimiento>
-            <precio moneda="EUR">329.00</precio>
-            <estado disponible="true">20</estado>
-            <fechaRegistro>2025-11-12</fechaRegistro>
-        </chip>
+            <chip id="AMD-7800X3D" destacado="true" disponible="true">
+                <modelo>AMD Ryzen 7 7800X3D</modelo>
+                <especificaciones>
+                    <nucleos_hilos>8 / 16</nucleos_hilos>
+                    <socket>AM5</socket>
+                    <frecuencia unidad="GHz">5.0</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">399.00</precio>
+                <stock_actual>5</stock_actual>
+                <fechaRegistro>2026-01-10</fechaRegistro>
+            </chip>
 
-        <chip id="AMD-7600X" serie="Ryzen 5" destacado="false">
-            <modelo>AMD Ryzen 5 7600X</modelo>
-            <rendimiento>
-                <nucleos_hilos>6 / 12</nucleos_hilos>
-                <socket>AM5</socket>
-                <frecuencia unidad="GHz">5.3</frecuencia>
-            </rendimiento>
-            <precio moneda="EUR">249.00</precio>
-            <estado disponible="true">35</estado>
-            <fechaRegistro>2025-10-01</fechaRegistro>
-        </chip>
+            <chip id="AMD-7700X" destacado="false" disponible="true">
+                <modelo>AMD Ryzen 7 7700X</modelo>
+                <especificaciones>
+                    <nucleos_hilos>8 / 16</nucleos_hilos>
+                    <socket>AM5</socket>
+                    <frecuencia unidad="GHz">5.4</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">329.00</precio>
+                <stock_actual>20</stock_actual>
+                <fechaRegistro>2025-11-12</fechaRegistro>
+            </chip>
 
-        <chip id="AMD-5600" serie="Ryzen 5" destacado="false">
-            <modelo>AMD Ryzen 5 5600</modelo>
-            <rendimiento>
-                <nucleos_hilos>6 / 12</nucleos_hilos>
-                <socket>AM4</socket>
-                <frecuencia unidad="GHz">4.4</frecuencia>
-            </rendimiento>
-            <precio moneda="EUR">139.00</precio>
-            <estado disponible="true">50</estado>
-            <fechaRegistro>2024-05-15</fechaRegistro>
-        </chip>
+            <chip id="AMD-7600X" destacado="false" disponible="true">
+                <modelo>AMD Ryzen 5 7600X</modelo>
+                <especificaciones>
+                    <nucleos_hilos>6 / 12</nucleos_hilos>
+                    <socket>AM5</socket>
+                    <frecuencia unidad="GHz">5.3</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">249.00</precio>
+                <stock_actual>35</stock_actual>
+                <fechaRegistro>2025-10-01</fechaRegistro>
+            </chip>
 
-        <chip id="AMD-5500" serie="Ryzen 5" destacado="false">
-            <modelo>AMD Ryzen 5 5500</modelo>
-            <rendimiento>
-                <nucleos_hilos>6 / 12</nucleos_hilos>
-                <socket>AM4</socket>
-                <frecuencia unidad="GHz">4.2</frecuencia>
-            </rendimiento>
-            <precio moneda="EUR">109.00</precio>
-            <estado disponible="true">42</estado>
-            <fechaRegistro>2024-06-20</fechaRegistro>
-        </chip>
+            <chip id="AMD-5600" destacado="false" disponible="true">
+                <modelo>AMD Ryzen 5 5600</modelo>
+                <especificaciones>
+                    <nucleos_hilos>6 / 12</nucleos_hilos>
+                    <socket>AM4</socket>
+                    <frecuencia unidad="GHz">4.4</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">139.00</precio>
+                <stock_actual>50</stock_actual>
+                <fechaRegistro>2024-05-15</fechaRegistro>
+            </chip>
 
-        <chip id="AMD-4100" serie="Ryzen 3" destacado="false">
-            <modelo>AMD Ryzen 3 4100</modelo>
-            <rendimiento>
-                <nucleos_hilos>4 / 8</nucleos_hilos>
-                <socket>AM4</socket>
-                <frecuencia unidad="GHz">4.0</frecuencia>
-            </rendimiento>
-            <precio moneda="EUR">75.00</precio>
-            <estado disponible="false">0</estado>
-            <fechaRegistro>2023-12-05</fechaRegistro>
-        </chip>
+            <chip id="AMD-5500" destacado="false" disponible="true">
+                <modelo>AMD Ryzen 5 5500</modelo>
+                <especificaciones>
+                    <nucleos_hilos>6 / 12</nucleos_hilos>
+                    <socket>AM4</socket>
+                    <frecuencia unidad="GHz">4.2</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">109.00</precio>
+                <stock_actual>42</stock_actual>
+                <fechaRegistro>2024-06-20</fechaRegistro>
+            </chip>
 
-        <chip id="AMD-5700X" serie="Ryzen 7" destacado="false">
-            <modelo>AMD Ryzen 7 5700X</modelo>
-            <rendimiento>
-                <nucleos_hilos>8 / 16</nucleos_hilos>
-                <socket>AM4</socket>
-                <frecuencia unidad="GHz">4.6</frecuencia>
-            </rendimiento>
-            <precio moneda="EUR">189.00</precio>
-            <estado disponible="true">15</estado>
-            <fechaRegistro>2024-08-10</fechaRegistro>
-        </chip>
+            <chip id="AMD-4100" destacado="false" disponible="false">
+                <modelo>AMD Ryzen 3 4100</modelo>
+                <especificaciones>
+                    <nucleos_hilos>4 / 8</nucleos_hilos>
+                    <socket>AM4</socket>
+                    <frecuencia unidad="GHz">4.0</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">75.00</precio>
+                <stock_actual>0</stock_actual>
+                <fechaRegistro>2023-12-05</fechaRegistro>
+            </chip>
 
-        <chip id="AMD-5800X3D" serie="Ryzen 7" destacado="true">
-            <modelo>AMD Ryzen 7 5800X3D</modelo>
-            <rendimiento>
-                <nucleos_hilos>8 / 16</nucleos_hilos>
-                <socket>AM4</socket>
-                <frecuencia unidad="GHz">4.5</frecuencia>
-            </rendimiento>
-            <precio moneda="EUR">310.00</precio>
-            <estado disponible="true">3</estado>
-            <fechaRegistro>2024-04-01</fechaRegistro>
-        </chip>
-    </fabricante>
-</unidad_central_proceso>
+            <chip id="AMD-5700X" destacado="false" disponible="true">
+                <modelo>AMD Ryzen 7 5700X</modelo>
+                <especificaciones>
+                    <nucleos_hilos>8 / 16</nucleos_hilos>
+                    <socket>AM4</socket>
+                    <frecuencia unidad="GHz">4.6</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">189.00</precio>
+                <stock_actual>15</stock_actual>
+                <fechaRegistro>2024-08-10</fechaRegistro>
+            </chip>
+
+            <chip id="AMD-5800X3D" destacado="true" disponible="true">
+                <modelo>AMD Ryzen 7 5800X3D</modelo>
+                <especificaciones>
+                    <nucleos_hilos>8 / 16</nucleos_hilos>
+                    <socket>AM4</socket>
+                    <frecuencia unidad="GHz">4.5</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">310.00</precio>
+                <stock_actual>3</stock_actual>
+                <fechaRegistro>2024-04-01</fechaRegistro>
+            </chip>
+        </fabricante>
+
+    </inventario>
+</tienda>

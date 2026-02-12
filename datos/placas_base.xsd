@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-
-  <xs:element name="tienda">
+  <xs:element name="infraestructura_placa">
     <xs:complexType>
       <xs:sequence>
         <xs:element name="inventario">
@@ -10,24 +9,16 @@
               <xs:element name="fabricante" maxOccurs="unbounded">
                 <xs:complexType>
                   <xs:sequence>
-                    <xs:element name="chip" maxOccurs="unbounded">
+                    <xs:element name="placa" maxOccurs="unbounded">
                       <xs:complexType>
                         <xs:sequence>
                           <xs:element name="modelo" type="xs:string"/>
                           <xs:element name="especificaciones">
                             <xs:complexType>
                               <xs:sequence>
-                                <xs:element name="nucleos_hilos" type="xs:string"/>
                                 <xs:element name="socket" type="xs:string"/>
-                                <xs:element name="frecuencia">
-                                  <xs:complexType>
-                                    <xs:simpleContent>
-                                      <xs:extension base="xs:decimal">
-                                        <xs:attribute name="unidad" type="xs:string" fixed="GHz"/>
-                                      </xs:extension>
-                                    </xs:simpleContent>
-                                  </xs:complexType>
-                                </xs:element>
+                                <xs:element name="chipset" type="xs:string"/>
+                                <xs:element name="formato" type="xs:string"/>
                               </xs:sequence>
                             </xs:complexType>
                           </xs:element>
@@ -40,28 +31,33 @@
                               </xs:simpleContent>
                             </xs:complexType>
                           </xs:element>
-                          <xs:element name="stock_actual" type="xs:integer"/>
+                          <xs:element name="estado">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:integer">
+                                  <xs:attribute name="disponible" type="xs:boolean" use="required"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
                           <xs:element name="fechaRegistro" type="xs:date"/>
                         </xs:sequence>
                         <xs:attribute name="id" type="xs:ID" use="required"/>
-                        <xs:attribute name="destacado" type="xs:boolean" default="false"/>
-                        <xs:attribute name="disponible" type="xs:boolean" use="required"/>
+                        <xs:attribute name="gama" type="xs:string"/>
+                        <xs:attribute name="wifi" type="xs:boolean"/>
                       </xs:complexType>
                     </xs:element>
                   </xs:sequence>
                   <xs:attribute name="nombre" type="xs:string" use="required"/>
-                  <xs:attribute name="arquitectura" type="xs:string" use="required"/>
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
-            <xs:attribute name="categoria" type="xs:string" use="required"/>
+            <xs:attribute name="categoria" type="xs:string" fixed="Placas Base"/>
             <xs:attribute name="fechaActualizacion" type="xs:date" use="required"/>
           </xs:complexType>
         </xs:element>
       </xs:sequence>
-      <xs:attribute name="nombre" type="xs:string" use="required"/>
-      <xs:attribute name="ubicacion" type="xs:string"/>
+      <xs:attribute name="tienda" type="xs:string" use="required"/>
     </xs:complexType>
   </xs:element>
-
 </xs:schema>

@@ -1,0 +1,35 @@
+<!ELEMENT infraestructura_placa (inventario)>
+<!ATTLIST infraestructura_placa 
+          tienda CDATA #REQUIRED>
+
+<!ELEMENT inventario (fabricante+)>
+<!ATTLIST inventario 
+          categoria CDATA #FIXED "Placas Base"
+          fechaActualizacion CDATA #REQUIRED>
+
+<!ELEMENT fabricante (placa+)>
+<!ATTLIST fabricante 
+          nombre CDATA #REQUIRED>
+
+<!ELEMENT placa (modelo, especificaciones, precio, estado, fechaRegistro)>
+<!ATTLIST placa 
+          id ID #REQUIRED
+          gama CDATA #REQUIRED
+          wifi (true | false) "false">
+
+<!ELEMENT modelo (#PCDATA)>
+
+<!ELEMENT especificaciones (socket, chipset, formato)>
+<!ELEMENT socket (#PCDATA)>
+<!ELEMENT chipset (#PCDATA)>
+<!ELEMENT formato (#PCDATA)>
+
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio 
+          moneda CDATA #FIXED "EUR">
+
+<!ELEMENT estado (#PCDATA)>
+<!ATTLIST estado 
+          disponible (true | false) #REQUIRED>
+
+<!ELEMENT fechaRegistro (#PCDATA)>

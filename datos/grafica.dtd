@@ -8,28 +8,30 @@
           categoria CDATA #REQUIRED
           fechaActualizacion CDATA #REQUIRED>
 
-<!ELEMENT fabricante (chip+)>
+<!ELEMENT fabricante (tarjeta+)>
 <!ATTLIST fabricante 
-          nombre CDATA #REQUIRED
-          arquitectura CDATA #REQUIRED>
+          nombre (NVIDIA | AMD) #REQUIRED>
 
-<!ELEMENT chip (modelo, especificaciones, precio, stock_actual, fechaRegistro)>
-<!ATTLIST chip 
+<!ELEMENT tarjeta (modelo, especificaciones, precio, fechaRegistro)>
+<!ATTLIST tarjeta 
           id ID #REQUIRED
-          destacado (true | false) "false"
           disponible (true | false) #REQUIRED>
 
 <!ELEMENT modelo (#PCDATA)>
 
-<!ELEMENT especificaciones (nucleos_hilos, socket, frecuencia)>
-<!ELEMENT nucleos_hilos (#PCDATA)>
-<!ELEMENT socket (#PCDATA)>
+<!ELEMENT especificaciones (vram, interfaz, consumo)>
+<!ELEMENT vram (#PCDATA)>
+<!ATTLIST vram 
+          unidad CDATA #FIXED "GB"
+          tipo (GDDR6 | GDDR6X) #REQUIRED>
 
-<!ELEMENT frecuencia (#PCDATA)>
-<!ATTLIST frecuencia unidad CDATA #FIXED "GHz">
+<!ELEMENT interfaz (#PCDATA)>
+<!ATTLIST interfaz unidad CDATA #FIXED "bit">
+
+<!ELEMENT consumo (#PCDATA)>
+<!ATTLIST consumo unidad CDATA #FIXED "W">
 
 <!ELEMENT precio (#PCDATA)>
 <!ATTLIST precio moneda CDATA #FIXED "EUR">
 
-<!ELEMENT stock_actual (#PCDATA)>
 <!ELEMENT fechaRegistro (#PCDATA)>

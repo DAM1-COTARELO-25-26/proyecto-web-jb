@@ -10,20 +10,37 @@
               <xs:element name="fabricante" maxOccurs="unbounded">
                 <xs:complexType>
                   <xs:sequence>
-                    <xs:element name="chip" maxOccurs="unbounded">
+                    <xs:element name="tarjeta" maxOccurs="unbounded">
                       <xs:complexType>
                         <xs:sequence>
                           <xs:element name="modelo" type="xs:string"/>
                           <xs:element name="especificaciones">
                             <xs:complexType>
                               <xs:sequence>
-                                <xs:element name="nucleos_hilos" type="xs:string"/>
-                                <xs:element name="socket" type="xs:string"/>
-                                <xs:element name="frecuencia">
+                                <xs:element name="vram">
                                   <xs:complexType>
                                     <xs:simpleContent>
-                                      <xs:extension base="xs:decimal">
-                                        <xs:attribute name="unidad" type="xs:string" fixed="GHz"/>
+                                      <xs:extension base="xs:integer">
+                                        <xs:attribute name="unidad" type="xs:string" fixed="GB"/>
+                                        <xs:attribute name="tipo" type="xs:string" use="required"/>
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="interfaz">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:integer">
+                                        <xs:attribute name="unidad" type="xs:string" fixed="bit"/>
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="consumo">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:integer">
+                                        <xs:attribute name="unidad" type="xs:string" fixed="W"/>
                                       </xs:extension>
                                     </xs:simpleContent>
                                   </xs:complexType>
@@ -40,17 +57,14 @@
                               </xs:simpleContent>
                             </xs:complexType>
                           </xs:element>
-                          <xs:element name="stock_actual" type="xs:integer"/>
                           <xs:element name="fechaRegistro" type="xs:date"/>
                         </xs:sequence>
                         <xs:attribute name="id" type="xs:ID" use="required"/>
-                        <xs:attribute name="destacado" type="xs:boolean" default="false"/>
                         <xs:attribute name="disponible" type="xs:boolean" use="required"/>
                       </xs:complexType>
                     </xs:element>
                   </xs:sequence>
                   <xs:attribute name="nombre" type="xs:string" use="required"/>
-                  <xs:attribute name="arquitectura" type="xs:string" use="required"/>
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
