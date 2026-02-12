@@ -1,0 +1,33 @@
+<!ELEMENT unidad_central_proceso (fabricante+)>
+<!ATTLIST unidad_central_proceso
+          tienda CDATA #REQUIRED>
+
+<!ELEMENT fabricante (chip+)>
+<!ATTLIST fabricante
+          nombre (Intel | AMD) #REQUIRED
+          arquitectura CDATA #REQUIRED>
+
+<!ELEMENT chip (modelo, rendimiento, precio, estado, fechaRegistro)>
+<!ATTLIST chip
+          id ID #REQUIRED
+          serie CDATA #REQUIRED
+          destacado (true | false) "false">
+
+<!ELEMENT modelo (#PCDATA)>
+<!ELEMENT rendimiento (nucleos_hilos, socket, frecuencia)>
+
+<!ELEMENT nucleos_hilos (#PCDATA)>
+<!ELEMENT socket (#PCDATA)>
+<!ELEMENT frecuencia (#PCDATA)>
+<!ATTLIST frecuencia
+          unidad CDATA #FIXED "GHz">
+
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio
+          moneda CDATA #FIXED "EUR">
+
+<!ELEMENT estado (#PCDATA)>
+<!ATTLIST estado
+          disponible (true | false) #REQUIRED>
+
+<!ELEMENT fechaRegistro (#PCDATA)>
