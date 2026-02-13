@@ -1,0 +1,30 @@
+<!ELEMENT perifericos_puntero (inventario)>
+<!ATTLIST perifericos_puntero tienda CDATA #REQUIRED>
+
+<!ELEMENT inventario (fabricante+)>
+<!ATTLIST inventario 
+          categoria CDATA #REQUIRED
+          fechaActualizacion CDATA #REQUIRED>
+
+<!ELEMENT fabricante (raton+)>
+<!ATTLIST fabricante nombre CDATA #REQUIRED>
+
+<!ELEMENT raton (modelo, especificaciones, precio, fechaRegistro)>
+<!ATTLIST raton 
+          id ID #REQUIRED
+          conexion CDATA #REQUIRED
+          disponible (true | false) #REQUIRED>
+
+<!ELEMENT modelo (#PCDATA)>
+<!ELEMENT especificaciones (dpi_max, peso)>
+
+<!ELEMENT dpi_max (#PCDATA)>
+<!ATTLIST dpi_max unidad CDATA #FIXED "DPI">
+
+<!ELEMENT peso (#PCDATA)>
+<!ATTLIST peso unidad CDATA #FIXED "g">
+
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio moneda CDATA #FIXED "EUR">
+
+<!ELEMENT fechaRegistro (#PCDATA)>
