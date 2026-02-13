@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="unidades_alimentacion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="inventario">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="fabricante" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="fuente" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="modelo" type="xs:string"/>
+                          <xs:element name="especificaciones">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="potencia">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:integer">
+                                        <xs:attribute name="unidad" type="xs:string" fixed="W"/>
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="certificacion" type="xs:string"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="precio">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:decimal">
+                                  <xs:attribute name="moneda" type="xs:string" fixed="EUR"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="estado" type="xs:integer"/>
+                          <xs:element name="fechaRegistro" type="xs:date"/>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:ID" use="required"/>
+                        <xs:attribute name="gama" type="xs:string"/>
+                        <xs:attribute name="modular" type="xs:boolean"/>
+                        <xs:attribute name="disponible" type="xs:boolean"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="nombre" type="xs:string" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="categoria" type="xs:string" use="required"/>
+            <xs:attribute name="fechaActualizacion" type="xs:date" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="nombre" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

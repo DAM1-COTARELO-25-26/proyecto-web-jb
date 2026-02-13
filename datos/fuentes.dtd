@@ -1,0 +1,32 @@
+<!ELEMENT unidades_alimentacion (inventario)>
+<!ATTLIST unidades_alimentacion tienda CDATA #REQUIRED>
+
+<!ELEMENT inventario (fabricante+)>
+<!ATTLIST inventario 
+          categoria CDATA #REQUIRED
+          fechaActualizacion CDATA #REQUIRED>
+
+<!ELEMENT fabricante (fuente+)>
+<!ATTLIST fabricante nombre CDATA #REQUIRED>
+
+<!ELEMENT fuente (modelo, especificaciones, precio, estado, fechaRegistro)>
+<!ATTLIST fuente 
+          id ID #REQUIRED
+          gama CDATA #REQUIRED
+          modular (true | false) "true">
+
+<!ELEMENT modelo (#PCDATA)>
+
+<!ELEMENT especificaciones (potencia, certificacion)>
+<!ELEMENT potencia (#PCDATA)>
+<!ATTLIST potencia unidad CDATA #FIXED "W">
+
+<!ELEMENT certificacion (#PCDATA)>
+
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio moneda CDATA #FIXED "EUR">
+
+<!ELEMENT estado (#PCDATA)>
+<!ATTLIST estado disponible (true | false) #REQUIRED>
+
+<!ELEMENT fechaRegistro (#PCDATA)>

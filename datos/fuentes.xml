@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unidades_alimentacion tienda="JB" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+    <inventario categoria="Fuentes de Alimentación" fechaActualizacion="2026-02-13">
+
+        <fabricante nombre="ASUS">
+            <fuente id="PSU-ASU-001" gama="ROG Strix" modular="true">
+                <modelo>ASUS ROG Strix 750G</modelo>
+                <especificaciones>
+                    <potencia unidad="W">750</potencia>
+                    <certificacion>80+ Gold</certificacion>
+                </especificaciones>
+                <precio moneda="EUR">149.00</precio>
+                <estado disponible="true">15</estado>
+                <fechaRegistro>2025-06-10</fechaRegistro>
+            </fuente>
+
+            <fuente id="PSU-ASU-002" gama="ROG Strix" modular="true">
+                <modelo>ASUS ROG Strix 850G</modelo>
+                <especificaciones>
+                    <potencia unidad="W">850</potencia>
+                    <certificacion>80+ Gold</certificacion>
+                </especificaciones>
+                <precio moneda="EUR">169.00</precio>
+                <estado disponible="true">10</estado>
+                <fechaRegistro>2025-06-10</fechaRegistro>
+            </fuente>
+
+            <fuente id="PSU-ASU-003" gama="ROG Strix" modular="true">
+                <modelo>ASUS ROG Strix 1000G</modelo>
+                <especificaciones>
+                    <potencia unidad="W">1000</potencia>
+                    <certificacion>80+ Gold</certificacion>
+                </especificaciones>
+                <precio moneda="EUR">209.00</precio>
+                <estado disponible="true">8</estado>
+                <fechaRegistro>2025-06-10</fechaRegistro>
+            </fuente>
+
+            <fuente id="PSU-ASU-004" gama="ROG Thor" modular="true">
+                <modelo>ASUS ROG Thor 850P</modelo>
+                <especificaciones>
+                    <potencia unidad="W">850</potencia>
+                    <certificacion>80+ Platinum</certificacion>
+                </especificaciones>
+                <precio moneda="EUR">249.00</precio>
+                <estado disponible="true">5</estado>
+                <fechaRegistro>2025-11-20</fechaRegistro>
+            </fuente>
+
+            <fuente id="PSU-ASU-005" gama="ROG Thor" modular="true">
+                <modelo>ASUS ROG Thor 1000P</modelo>
+                <especificaciones>
+                    <potencia unidad="W">1000</potencia>
+                    <certificacion>80+ Platinum</certificacion>
+                </especificaciones>
+                <precio moneda="EUR">299.00</precio>
+                <estado disponible="true">4</estado>
+                <fechaRegistro>2025-11-20</fechaRegistro>
+            </fuente>
+
+            <fuente id="PSU-ASU-006" gama="ROG Thor" modular="true">
+                <modelo>ASUS ROG Thor 1200P</modelo>
+                <especificaciones>
+                    <potencia unidad="W">1200</potencia>
+                    <certificacion>80+ Platinum</certificacion>
+                </especificaciones>
+                <precio moneda="EUR">369.00</precio>
+                <estado disponible="true">3</estado>
+                <fechaRegistro>2025-11-20</fechaRegistro>
+            </fuente>
+
+            <fuente id="PSU-ASU-007" gama="TUF Gaming" modular="false">
+                <modelo>ASUS TUF Gaming 550B</modelo>
+                <especificaciones>
+                    <potencia unidad="W">550</potencia>
+                    <certificacion>80+ Bronze</certificacion>
+                </especificaciones>
+                <precio moneda="EUR">69.00</precio>
+                <estado disponible="true">30</estado>
+                <fechaRegistro>2025-04-15</fechaRegistro>
+            </fuente>
+
+            <fuente id="PSU-ASU-008" gama="TUF Gaming" modular="false">
+                <modelo>ASUS TUF Gaming 650B</modelo>
+                <especificaciones>
+                    <potencia unidad="W">650</potencia>
+                    <certificacion>80+ Bronze</certificacion>
+                </especificaciones>
+                <precio moneda="EUR">79.00</precio>
+                <estado disponible="true">25</estado>
+                <fechaRegistro>2025-04-15</fechaRegistro>
+            </fuente>
+
+            <fuente id="PSU-ASU-009" gama="TUF Gaming" modular="true">
+                <modelo>ASUS TUF Gaming 750G</modelo>
+                <especificaciones>
+                    <potencia unidad="W">750</potencia>
+                    <certificacion>80+ Gold</certificacion>
+                </especificaciones>
+                <precio moneda="EUR">119.00</precio>
+                <estado disponible="true">18</estado>
+                <fechaRegistro>2025-10-05</fechaRegistro>
+            </fuente>
+
+            <fuente id="PSU-ASU-010" gama="ROG Loki" modular="true">
+                <modelo>ASUS ROG Loki SFX-L</modelo>
+                <especificaciones>
+                    <potencia unidad="W">850</potencia>
+                    <certificacion>80+ Platinum</certificacion>
+                </especificaciones>
+                <precio moneda="EUR">229.00</precio>
+                <estado disponible="true">7</estado>
+                <fechaRegistro>2026-01-12</fechaRegistro>
+            </fuente>
+        </fabricante>
+
+        <fabricante nombre="Corsair">
+            <fuente id="PSU-COR-001" gama="RMx" modular="true">
+                <modelo>Corsair RM750x</modelo>
+                <especificaciones>
+                    <potencia unidad="W">750</potencia>
+                    <certificacion>80+ Gold</certificacion>
+                </especificaciones>
+                <precio moneda="EUR">129.00</precio>
+                <estado disponible="true">40</estado>
+                <fechaRegistro>2025-08-14</fechaRegistro>
+            </fuente>
+            </fabricante>
+
+    </inventario>
+</unidades_alimentacion>
