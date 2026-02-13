@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<almacenamiento_volatil tienda="JB" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <inventario categoria="Memorias RAM" fechaActualizacion="2026-02-13">
+
+        <fabricante nombre="Kingston">
+            <modulo id="RAM-KGN-001" tecnologia="DDR4" rgb="false">
+                <modelo>Kingston FURY Beast</modelo>
+                <especificaciones>
+                    <capacidad unidad="GB">16</capacidad>
+                    <configuracion>2x8GB</configuracion>
+                    <frecuencia unidad="MHz">3200</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">59.00</precio>
+                <estado disponible="true">45</estado>
+                <fechaRegistro>2025-08-20</fechaRegistro>
+            </modulo>
+
+            <modulo id="RAM-KGN-002" tecnologia="DDR4" rgb="true">
+                <modelo>Kingston FURY Beast RGB</modelo>
+                <especificaciones>
+                    <capacidad unidad="GB">16</capacidad>
+                    <configuracion>2x8GB</configuracion>
+                    <frecuencia unidad="MHz">3600</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">79.00</precio>
+                <estado disponible="true">30</estado>
+                <fechaRegistro>2025-08-20</fechaRegistro>
+            </modulo>
+
+            <modulo id="RAM-KGN-003" tecnologia="DDR4" rgb="false">
+                <modelo>Kingston FURY Renegade</modelo>
+                <especificaciones>
+                    <capacidad unidad="GB">32</capacidad>
+                    <configuracion>2x16GB</configuracion>
+                    <frecuencia unidad="MHz">3600</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">169.00</precio>
+                <estado disponible="true">15</estado>
+                <fechaRegistro>2025-09-05</fechaRegistro>
+            </modulo>
+
+            <modulo id="RAM-KGN-004" tecnologia="DDR4" rgb="false">
+                <modelo>Kingston FURY Beast</modelo>
+                <especificaciones>
+                    <capacidad unidad="GB">32</capacidad>
+                    <configuracion>2x16GB</configuracion>
+                    <frecuencia unidad="MHz">3200</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">135.00</precio>
+                <estado disponible="true">20</estado>
+                <fechaRegistro>2025-08-20</fechaRegistro>
+            </modulo>
+
+            <modulo id="RAM-KGN-005" tecnologia="DDR4" rgb="true">
+                <modelo>Kingston FURY Renegade RGB</modelo>
+                <especificaciones>
+                    <capacidad unidad="GB">32</capacidad>
+                    <configuracion>2x16GB</configuracion>
+                    <frecuencia unidad="MHz">3600</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">189.00</precio>
+                <estado disponible="true">10</estado>
+                <fechaRegistro>2025-09-05</fechaRegistro>
+            </modulo>
+
+            <modulo id="RAM-KGN-006" tecnologia="DDR5" rgb="false">
+                <modelo>Kingston FURY Beast DDR5</modelo>
+                <especificaciones>
+                    <capacidad unidad="GB">32</capacidad>
+                    <configuracion>2x16GB</configuracion>
+                    <frecuencia unidad="MHz">6000</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">199.00</precio>
+                <estado disponible="true">25</estado>
+                <fechaRegistro>2026-01-10</fechaRegistro>
+            </modulo>
+
+            <modulo id="RAM-KGN-007" tecnologia="DDR5" rgb="false">
+                <modelo>Kingston FURY Renegade DDR5</modelo>
+                <especificaciones>
+                    <capacidad unidad="GB">32</capacidad>
+                    <configuracion>2x16GB</configuracion>
+                    <frecuencia unidad="MHz">6400</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">239.00</precio>
+                <estado disponible="true">12</estado>
+                <fechaRegistro>2026-01-10</fechaRegistro>
+            </modulo>
+
+            <modulo id="RAM-KGN-008" tecnologia="DDR5" rgb="false">
+                <modelo>Kingston FURY Beast DDR5</modelo>
+                <especificaciones>
+                    <capacidad unidad="GB">16</capacidad>
+                    <configuracion>2x8GB</configuracion>
+                    <frecuencia unidad="MHz">5200</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">99.00</precio>
+                <estado disponible="true">40</estado>
+                <fechaRegistro>2026-01-10</fechaRegistro>
+            </modulo>
+
+            <modulo id="RAM-KGN-009" tecnologia="DDR5" rgb="true">
+                <modelo>Kingston FURY Beast RGB DDR5</modelo>
+                <especificaciones>
+                    <capacidad unidad="GB">32</capacidad>
+                    <configuracion>2x16GB</configuracion>
+                    <frecuencia unidad="MHz">5600</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">189.00</precio>
+                <estado disponible="true">18</estado>
+                <fechaRegistro>2026-01-10</fechaRegistro>
+            </modulo>
+
+            <modulo id="RAM-KGN-010" tecnologia="DDR5" rgb="false">
+                <modelo>Kingston FURY Renegade DDR5</modelo>
+                <especificaciones>
+                    <capacidad unidad="GB">64</capacidad>
+                    <configuracion>2x32GB</configuracion>
+                    <frecuencia unidad="MHz">6000</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">349.00</precio>
+                <estado disponible="false">0</estado>
+                <fechaRegistro>2026-01-10</fechaRegistro>
+            </modulo>
+        </fabricante>
+
+        <fabricante nombre="Corsair">
+            <modulo id="RAM-COR-001" tecnologia="DDR4" rgb="false">
+                <modelo>Vengeance LPX</modelo>
+                <especificaciones>
+                    <capacidad unidad="GB">16</capacidad>
+                    <configuracion>2x8GB</configuracion>
+                    <frecuencia unidad="MHz">3200</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">69.00</precio>
+                <estado disponible="true">50</estado>
+                <fechaRegistro>2025-05-10</fechaRegistro>
+            </modulo>
+
+            <modulo id="RAM-COR-002" tecnologia="DDR4" rgb="true">
+                <modelo>Vengeance RGB Pro</modelo>
+                <especificaciones>
+                    <capacidad unidad="GB">16</capacidad>
+                    <configuracion>2x8GB</configuracion>
+                    <frecuencia unidad="MHz">3600</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">89.00</precio>
+                <estado disponible="true">35</estado>
+                <fechaRegistro>2025-05-10</fechaRegistro>
+            </modulo>
+
+            <modulo id="RAM-COR-003" tecnologia="DDR4" rgb="true">
+                <modelo>Dominator Platinum RGB</modelo>
+                <especificaciones>
+                    <capacidad unidad="GB">32</capacidad>
+                    <configuracion>2x16GB</configuracion>
+                    <frecuencia unidad="MHz">3600</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">189.00</precio>
+                <estado disponible="true">10</estado>
+                <fechaRegistro>2025-06-12</fechaRegistro>
+            </modulo>
+
+            <modulo id="RAM-COR-004" tecnologia="DDR4" rgb="true">
+                <modelo>Vengeance RGB Pro SL</modelo>
+                <especificaciones>
+                    <capacidad unidad="GB">32</capacidad>
+                    <configuracion>2x16GB</configuracion>
+                    <frecuencia unidad="MHz">3200</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">149.00</precio>
+                <estado disponible="true">22</estado>
+                <fechaRegistro>2025-05-10</fechaRegistro>
+            </modulo>
+
+            <modulo id="RAM-COR-005" tecnologia="DDR5" rgb="false">
+                <modelo>Vengeance DDR5</modelo>
+                <especificaciones>
+                    <capacidad unidad="GB">32</capacidad>
+                    <configuracion>2x16GB</configuracion>
+                    <frecuencia unidad="MHz">6000</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">179.00</precio>
+                <estado disponible="true">28</estado>
+                <fechaRegistro>2026-01-15</fechaRegistro>
+            </modulo>
+
+            <modulo id="RAM-COR-006" tecnologia="DDR5" rgb="true">
+                <modelo>Dominator Titanium RGB</modelo>
+                <especificaciones>
+                    <capacidad unidad="GB">32</capacidad>
+                    <configuracion>2x16GB</configuracion>
+                    <frecuencia unidad="MHz">6000</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">229.00</precio>
+                <estado disponible="true">8</estado>
+                <fechaRegistro>2026-02-01</fechaRegistro>
+            </modulo>
+
+            <modulo id="RAM-COR-007" tecnologia="DDR5" rgb="false">
+                <modelo>Vengeance DDR5 Entry</modelo>
+                <especificaciones>
+                    <capacidad unidad="GB">16</capacidad>
+                    <configuracion>2x8GB</configuracion>
+                    <frecuencia unidad="MHz">5200</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">99.00</precio>
+                <estado disponible="true">45</estado>
+                <fechaRegistro>2026-01-15</fechaRegistro>
+            </modulo>
+
+            <modulo id="RAM-COR-008" tecnologia="DDR5" rgb="false">
+                <modelo>Vengeance DDR5 Workstation</modelo>
+                <especificaciones>
+                    <capacidad unidad="GB">64</capacidad>
+                    <configuracion>2x32GB</configuracion>
+                    <frecuencia unidad="MHz">5600</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">299.00</precio>
+                <estado disponible="false">0</estado>
+                <fechaRegistro>2025-12-10</fechaRegistro>
+            </modulo>
+
+            <modulo id="RAM-COR-009" tecnologia="DDR5" rgb="true">
+                <modelo>Vengeance RGB DDR5</modelo>
+                <especificaciones>
+                    <capacidad unidad="GB">32</capacidad>
+                    <configuracion>2x16GB</configuracion>
+                    <frecuencia unidad="MHz">5600</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">199.00</precio>
+                <estado disponible="true">15</estado>
+                <fechaRegistro>2026-01-15</fechaRegistro>
+            </modulo>
+
+            <modulo id="RAM-COR-010" tecnologia="DDR5" rgb="true">
+                <modelo>Dominator Platinum RGB DDR5</modelo>
+                <especificaciones>
+                    <capacidad unidad="GB">64</capacidad>
+                    <configuracion>2x32GB</configuracion>
+                    <frecuencia unidad="MHz">6000</frecuencia>
+                </especificaciones>
+                <precio moneda="EUR">369.00</precio>
+                <estado disponible="true">5</estado>
+                <fechaRegistro>2025-12-10</fechaRegistro>
+            </modulo>
+        </fabricante>
+
+    </inventario>
+</almacenamiento_volatil>
