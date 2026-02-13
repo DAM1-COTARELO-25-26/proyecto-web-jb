@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<perifericos_entrada tienda="JB" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+    <inventario categoria="Teclados" fechaActualizacion="2026-02-13">
+
+        <fabricante nombre="Corsair">
+            <teclado id="KEY-COR-001" conexion="Cable" rgb="true">
+                <modelo>Corsair K70 RGB PRO</modelo>
+                <especificaciones>
+                    <switch>Mecánico (Cherry MX)</switch>
+                    <formato>Completo (100%)</formato>
+                </especificaciones>
+                <precio moneda="EUR">199.00</precio>
+                <estado disponible="true">15</estado>
+                <fechaRegistro>2025-11-10</fechaRegistro>
+            </teclado>
+
+            <teclado id="KEY-COR-002" conexion="Cable" rgb="true">
+                <modelo>Corsair K100 RGB</modelo>
+                <especificaciones>
+                    <switch>Óptico (OPX)</switch>
+                    <formato>Completo + Macro</formato>
+                </especificaciones>
+                <precio moneda="EUR">249.00</precio>
+                <estado disponible="true">8</estado>
+                <fechaRegistro>2025-12-05</fechaRegistro>
+            </teclado>
+
+            <teclado id="KEY-COR-010" conexion="Wireless" rgb="true">
+                <modelo>Corsair K57 RGB Wireless</modelo>
+                <especificaciones>
+                    <switch>Membrana</switch>
+                    <formato>Completo (100%)</formato>
+                </especificaciones>
+                <precio moneda="EUR">89.00</precio>
+                <estado disponible="false">0</estado>
+                <fechaRegistro>2024-11-20</fechaRegistro>
+            </teclado>
+        </fabricante>
+
+        <fabricante nombre="Newskill">
+            <teclado id="KEY-NEW-001" conexion="Cable" rgb="true">
+                <modelo>Newskill Pyros Speed Pro</modelo>
+                <especificaciones>
+                    <switch>Kailh Speed Copper</switch>
+                    <formato>60% Ultra-compacto</formato>
+                </especificaciones>
+                <precio moneda="EUR">59.00</precio>
+                <estado disponible="true">25</estado>
+                <fechaRegistro>2026-01-15</fechaRegistro>
+            </teclado>
+
+            <teclado id="KEY-NEW-002" conexion="Cable" rgb="true">
+                <modelo>Newskill Serike TKL Ivory</modelo>
+                <especificaciones>
+                    <switch>Outemu Red</switch>
+                    <formato>TKL (Sin teclado numérico)</formato>
+                </especificaciones>
+                <precio moneda="EUR">79.00</precio>
+                <estado disponible="true">18</estado>
+                <fechaRegistro>2026-01-15</fechaRegistro>
+            </teclado>
+
+            <teclado id="KEY-NEW-003" conexion="Cable" rgb="true">
+                <modelo>Newskill Suiko Ivory</modelo>
+                <especificaciones>
+                    <switch>Kailh Brown</switch>
+                    <formato>Full Size (100%)</formato>
+                </especificaciones>
+                <precio moneda="EUR">89.00</precio>
+                <estado disponible="true">12</estado>
+                <fechaRegistro>2025-09-10</fechaRegistro>
+            </teclado>
+
+            <teclado id="KEY-NEW-004" conexion="Cable" rgb="true">
+                <modelo>Newskill Pyros RGB</modelo>
+                <especificaciones>
+                    <switch>Outemu Blue</switch>
+                    <formato>60% Ultra-compacto</formato>
+                </especificaciones>
+                <precio moneda="EUR">49.00</precio>
+                <estado disponible="true">30</estado>
+                <fechaRegistro>2025-08-05</fechaRegistro>
+            </teclado>
+
+            <teclado id="KEY-NEW-005" conexion="Cable" rgb="true">
+                <modelo>Newskill Serike V2</modelo>
+                <especificaciones>
+                    <switch>Red Hot-swappable</switch>
+                    <formato>Full Size (100%)</formato>
+                </especificaciones>
+                <precio moneda="EUR">72.00</precio>
+                <estado disponible="true">20</estado>
+                <fechaRegistro>2026-02-01</fechaRegistro>
+            </teclado>
+
+            <teclado id="KEY-NEW-006" conexion="Cable" rgb="true">
+                <modelo>Newskill Suiko Pro</modelo>
+                <especificaciones>
+                    <switch>Gateron Red</switch>
+                    <formato>Full Size (100%)</formato>
+                </especificaciones>
+                <precio moneda="EUR">99.00</precio>
+                <estado disponible="true">5</estado>
+                <fechaRegistro>2025-12-10</fechaRegistro>
+            </teclado>
+
+            <teclado id="KEY-NEW-007" conexion="Cable" rgb="true">
+                <modelo>Newskill Pyros Pro Ivory</modelo>
+                <especificaciones>
+                    <switch>Kailh Red</switch>
+                    <formato>60% Ultra-compacto</formato>
+                </especificaciones>
+                <precio moneda="EUR">69.00</precio>
+                <estado disponible="true">14</estado>
+                <fechaRegistro>2026-01-20</fechaRegistro>
+            </teclado>
+
+            <teclado id="KEY-NEW-008" conexion="Cable" rgb="true">
+                <modelo>Newskill Serike V2 TKL</modelo>
+                <especificaciones>
+                    <switch>Linear Red</switch>
+                    <formato>TKL (80%)</formato>
+                </especificaciones>
+                <precio moneda="EUR">65.00</precio>
+                <estado disponible="true">22</estado>
+                <fechaRegistro>2026-02-01</fechaRegistro>
+            </teclado>
+
+            <teclado id="KEY-NEW-009" conexion="Cable" rgb="true">
+                <modelo>Newskill Serike TKL Pro</modelo>
+                <especificaciones>
+                    <switch>Outemu Blue</switch>
+                    <formato>TKL (80%)</formato>
+                </especificaciones>
+                <precio moneda="EUR">85.00</precio>
+                <estado disponible="true">10</estado>
+                <fechaRegistro>2025-07-15</fechaRegistro>
+            </teclado>
+
+            <teclado id="KEY-NEW-010" conexion="Cable" rgb="true">
+                <modelo>Newskill Suiko RGB</modelo>
+                <especificaciones>
+                    <switch>Outemu Red</switch>
+                    <formato>Full Size (100%)</formato>
+                </especificaciones>
+                <precio moneda="EUR">79.00</precio>
+                <estado disponible="false">0</estado>
+                <fechaRegistro>2025-05-20</fechaRegistro>
+            </teclado>
+        </fabricante>
+
+    </inventario>
+</perifericos_entrada>
