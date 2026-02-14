@@ -1,5 +1,6 @@
 <!ELEMENT perifericos_entrada (inventario)>
-<!ATTLIST perifericos_entrada tienda CDATA #REQUIRED>
+<!ATTLIST perifericos_entrada 
+          tienda CDATA #REQUIRED>
 
 <!ELEMENT inventario (fabricante+)>
 <!ATTLIST inventario 
@@ -7,23 +8,27 @@
           fechaActualizacion CDATA #REQUIRED>
 
 <!ELEMENT fabricante (teclado+)>
-<!ATTLIST fabricante nombre CDATA #REQUIRED>
+<!ATTLIST fabricante 
+          nombre CDATA #REQUIRED>
 
 <!ELEMENT teclado (modelo, especificaciones, precio, estado, fechaRegistro)>
 <!ATTLIST teclado 
           id ID #REQUIRED
-          conexion (Cable | Wireless | Bluetooth) #REQUIRED
-          rgb (true | false) "true">
+          conexion CDATA #REQUIRED
+          rgb (true | false) #REQUIRED>
 
 <!ELEMENT modelo (#PCDATA)>
+
 <!ELEMENT especificaciones (switch, formato)>
 <!ELEMENT switch (#PCDATA)>
 <!ELEMENT formato (#PCDATA)>
 
 <!ELEMENT precio (#PCDATA)>
-<!ATTLIST precio moneda CDATA #FIXED "EUR">
+<!ATTLIST precio 
+          moneda CDATA #FIXED "EUR">
 
 <!ELEMENT estado (#PCDATA)>
-<!ATTLIST estado disponible (true | false) #REQUIRED>
+<!ATTLIST estado 
+          disponible (true | false) #REQUIRED>
 
 <!ELEMENT fechaRegistro (#PCDATA)>
