@@ -15,10 +15,9 @@
 <!ATTLIST placa 
           id ID #REQUIRED
           gama CDATA #REQUIRED
-          wifi (true | false) "false">
+          wifi (true | false) #REQUIRED>
 
 <!ELEMENT modelo (#PCDATA)>
-
 <!ELEMENT especificaciones (socket, chipset, formato)>
 <!ELEMENT socket (#PCDATA)>
 <!ELEMENT chipset (#PCDATA)>
