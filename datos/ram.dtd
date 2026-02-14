@@ -1,5 +1,6 @@
 <!ELEMENT almacenamiento_volatil (inventario)>
-<!ATTLIST almacenamiento_volatil tienda CDATA #REQUIRED>
+<!ATTLIST almacenamiento_volatil 
+          tienda CDATA #REQUIRED>
 
 <!ELEMENT inventario (fabricante+)>
 <!ATTLIST inventario 
@@ -7,28 +8,35 @@
           fechaActualizacion CDATA #REQUIRED>
 
 <!ELEMENT fabricante (modulo+)>
-<!ATTLIST fabricante nombre CDATA #REQUIRED>
+<!ATTLIST fabricante 
+          nombre CDATA #REQUIRED>
 
 <!ELEMENT modulo (modelo, especificaciones, precio, estado, fechaRegistro)>
 <!ATTLIST modulo 
           id ID #REQUIRED
           tecnologia (DDR4 | DDR5) #REQUIRED
-          rgb (true | false) "false">
+          rgb (true | false) #REQUIRED>
 
 <!ELEMENT modelo (#PCDATA)>
 
 <!ELEMENT especificaciones (capacidad, configuracion, frecuencia)>
+
 <!ELEMENT capacidad (#PCDATA)>
-<!ATTLIST capacidad unidad CDATA #FIXED "GB">
+<!ATTLIST capacidad 
+          unidad CDATA #FIXED "GB">
 
 <!ELEMENT configuracion (#PCDATA)>
+
 <!ELEMENT frecuencia (#PCDATA)>
-<!ATTLIST frecuencia unidad CDATA #FIXED "MHz">
+<!ATTLIST frecuencia 
+          unidad CDATA #FIXED "MHz">
 
 <!ELEMENT precio (#PCDATA)>
-<!ATTLIST precio moneda CDATA #FIXED "EUR">
+<!ATTLIST precio 
+          moneda CDATA #FIXED "EUR">
 
 <!ELEMENT estado (#PCDATA)>
-<!ATTLIST estado disponible (true | false) #REQUIRED>
+<!ATTLIST estado 
+          disponible (true | false) #REQUIRED>
 
 <!ELEMENT fechaRegistro (#PCDATA)>
