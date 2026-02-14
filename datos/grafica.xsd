@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-  <!-- Formato obligatorio del ID -->
-  <xs:simpleType name="formatoTarjetaID">
-    <xs:restriction base="xs:string">
-      <xs:pattern value="[A-Z]{3}-[A-Z]{2}-\d{4}"/>
-    </xs:restriction>
-  </xs:simpleType>
-
   <xs:element name="tienda">
     <xs:complexType>
       <xs:sequence>
@@ -66,7 +59,7 @@
                           </xs:element>
                           <xs:element name="fechaRegistro" type="xs:date"/>
                         </xs:sequence>
-                        <xs:attribute name="id" type="formatoTarjetaID" use="required"/>
+                        <xs:attribute name="id" type="xs:ID" use="required"/>
                         <xs:attribute name="disponible" type="xs:boolean" use="required"/>
                       </xs:complexType>
                     </xs:element>
@@ -81,7 +74,7 @@
         </xs:element>
       </xs:sequence>
       <xs:attribute name="nombre" type="xs:string" use="required"/>
-      <xs:attribute name="ubicacion" type="xs:string"/>
+      <xs:attribute name="ubicacion" type="xs:string" use="required"/>
     </xs:complexType>
   </xs:element>
 

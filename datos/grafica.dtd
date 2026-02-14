@@ -1,7 +1,7 @@
 <!ELEMENT tienda (inventario)>
 <!ATTLIST tienda 
           nombre CDATA #REQUIRED
-          ubicacion CDATA #IMPLIED>
+          ubicacion CDATA #REQUIRED>
 
 <!ELEMENT inventario (fabricante+)>
 <!ATTLIST inventario 
@@ -20,18 +20,22 @@
 <!ELEMENT modelo (#PCDATA)>
 
 <!ELEMENT especificaciones (vram, interfaz, consumo)>
+
 <!ELEMENT vram (#PCDATA)>
 <!ATTLIST vram 
           unidad CDATA #FIXED "GB"
           tipo (GDDR6 | GDDR6X) #REQUIRED>
 
 <!ELEMENT interfaz (#PCDATA)>
-<!ATTLIST interfaz unidad CDATA #FIXED "bit">
+<!ATTLIST interfaz 
+          unidad CDATA #FIXED "bit">
 
 <!ELEMENT consumo (#PCDATA)>
-<!ATTLIST consumo unidad CDATA #FIXED "W">
+<!ATTLIST consumo 
+          unidad CDATA #FIXED "W">
 
 <!ELEMENT precio (#PCDATA)>
-<!ATTLIST precio moneda CDATA #FIXED "EUR">
+<!ATTLIST precio 
+          moneda CDATA #FIXED "EUR">
 
 <!ELEMENT fechaRegistro (#PCDATA)>
