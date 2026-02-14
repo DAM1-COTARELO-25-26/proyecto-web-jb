@@ -240,11 +240,19 @@
                     <socket>AM4</socket>
                     <frecuencia unidad="GHz">4.5</frecuencia>
                 </especificaciones>
+                
                 <precio moneda="EUR">310.00</precio>
+                
                 <stock_actual>3</stock_actual>
+                
                 <fechaRegistro>2024-04-01</fechaRegistro>
+                
             </chip>
+            
         </fabricante>
+        
 
+        
     </inventario>
+    
 </tienda>

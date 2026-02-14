@@ -1,7 +1,7 @@
 <!ELEMENT tienda (inventario)>
 <!ATTLIST tienda 
           nombre CDATA #REQUIRED
-          ubicacion CDATA #IMPLIED>
+          ubicacion CDATA #REQUIRED>
 
 <!ELEMENT inventario (fabricante+)>
 <!ATTLIST inventario 
@@ -10,13 +10,13 @@
 
 <!ELEMENT fabricante (chip+)>
 <!ATTLIST fabricante 
-          nombre CDATA #REQUIRED
+          nombre (Intel | AMD) #REQUIRED
           arquitectura CDATA #REQUIRED>
 
 <!ELEMENT chip (modelo, especificaciones, precio, stock_actual, fechaRegistro)>
 <!ATTLIST chip 
           id ID #REQUIRED
-          destacado (true | false) "false"
+          destacado (true | false) #REQUIRED
           disponible (true | false) #REQUIRED>
 
 <!ELEMENT modelo (#PCDATA)>
@@ -26,10 +26,12 @@
 <!ELEMENT socket (#PCDATA)>
 
 <!ELEMENT frecuencia (#PCDATA)>
-<!ATTLIST frecuencia unidad CDATA #FIXED "GHz">
+<!ATTLIST frecuencia 
+          unidad CDATA #FIXED "GHz">
 
 <!ELEMENT precio (#PCDATA)>
-<!ATTLIST precio moneda CDATA #FIXED "EUR">
+<!ATTLIST precio 
+          moneda CDATA #FIXED "EUR">
 
 <!ELEMENT stock_actual (#PCDATA)>
 <!ELEMENT fechaRegistro (#PCDATA)>
