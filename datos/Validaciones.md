@@ -17,6 +17,7 @@
 ### Validación contra DTD
 **Comando/Pasos ejecutados:**
 Se comprobó la integridad estructural del documento. La ausencia de subrayados rojos y el panel de "Problems" de VS Code confirman que el XML sigue las reglas del DTD.
+![Captura validación dtd](../img/validacion-dtd.png)
 
 ## 3. Proceso de validación
 
@@ -24,7 +25,7 @@ Se comprobó la integridad estructural del documento. La ausencia de subrayados 
 **Comando/Pasos ejecutados:**
 Se asoció el esquema XSD al archivo XML mediante el atributo xsi:noNamespaceSchemaLocation.
 Se verificó que los tipos de datos (fechas, booleanos y valores numéricos) cumplen con las restricciones del esquema. La validación es positiva al no reportar errores el editor.
-
+![Captura validación xsd](../img/validacion-xsd.png)
 
 # Validación del archivo fuentes.xml
 
@@ -45,6 +46,7 @@ Se verificó que los tipos de datos (fechas, booleanos y valores numéricos) cum
 ### Validación contra DTD
 **Comando/Pasos ejecutados:**
 Se comprobó la integridad estructural del documento. La ausencia de subrayados rojos y el panel de "Problems" de VS Code confirman que el XML sigue las reglas del DTD.
+(Ver captura de referencia en la sección de CPU).
 
 ## 3. Proceso de validación
 
@@ -52,6 +54,7 @@ Se comprobó la integridad estructural del documento. La ausencia de subrayados 
 **Comando/Pasos ejecutados:**
 Se asoció el esquema XSD al archivo XML mediante el atributo xsi:noNamespaceSchemaLocation.
 Se verificó que los tipos de datos (fechas, booleanos y valores numéricos) cumplen con las restricciones del esquema. La validación es positiva al no reportar errores el editor.
+(Ver captura de referencia en la sección de CPU).
 
 
 # Validación del archivo grafica.xml
@@ -73,6 +76,7 @@ Se verificó que los tipos de datos (fechas, booleanos y valores numéricos) cum
 ### Validación contra DTD
 **Comando/Pasos ejecutados:**
 Se comprobó la integridad estructural del documento. La ausencia de subrayados rojos y el panel de "Problems" de VS Code confirman que el XML sigue las reglas del DTD.
+(Ver captura de referencia en la sección de CPU).
 
 ## 3. Proceso de validación
 
@@ -80,6 +84,7 @@ Se comprobó la integridad estructural del documento. La ausencia de subrayados 
 **Comando/Pasos ejecutados:**
 Se asoció el esquema XSD al archivo XML mediante el atributo xsi:noNamespaceSchemaLocation.
 Se verificó que los tipos de datos (fechas, booleanos y valores numéricos) cumplen con las restricciones del esquema. La validación es positiva al no reportar errores el editor.
+(Ver captura de referencia en la sección de CPU).
 
 
 # Validación del archivo placa_base.xml
@@ -101,6 +106,7 @@ Se verificó que los tipos de datos (fechas, booleanos y valores numéricos) cum
 ### Validación contra DTD
 **Comando/Pasos ejecutados:**
 Se comprobó la integridad estructural del documento. La ausencia de subrayados rojos y el panel de "Problems" de VS Code confirman que el XML sigue las reglas del DTD.
+(Ver captura de referencia en la sección de CPU).
 
 ## 3. Proceso de validación
 
@@ -108,6 +114,7 @@ Se comprobó la integridad estructural del documento. La ausencia de subrayados 
 **Comando/Pasos ejecutados:**
 Se asoció el esquema XSD al archivo XML mediante el atributo xsi:noNamespaceSchemaLocation.
 Se verificó que los tipos de datos (fechas, booleanos y valores numéricos) cumplen con las restricciones del esquema. La validación es positiva al no reportar errores el editor.
+(Ver captura de referencia en la sección de CPU).
 
 
 # Validación del archivo ram.xml
@@ -129,6 +136,7 @@ Se verificó que los tipos de datos (fechas, booleanos y valores numéricos) cum
 ### Validación contra DTD
 **Comando/Pasos ejecutados:**
 Se comprobó la integridad estructural del documento. La ausencia de subrayados rojos y el panel de "Problems" de VS Code confirman que el XML sigue las reglas del DTD.
+(Ver captura de referencia en la sección de CPU).
 
 ## 3. Proceso de validación
 
@@ -136,6 +144,7 @@ Se comprobó la integridad estructural del documento. La ausencia de subrayados 
 **Comando/Pasos ejecutados:**
 Se asoció el esquema XSD al archivo XML mediante el atributo xsi:noNamespaceSchemaLocation.
 Se verificó que los tipos de datos (fechas, booleanos y valores numéricos) cumplen con las restricciones del esquema. La validación es positiva al no reportar errores el editor.
+(Ver captura de referencia en la sección de CPU).
 
 
 # Validación del archivo ratones.xml
@@ -157,6 +166,7 @@ Se verificó que los tipos de datos (fechas, booleanos y valores numéricos) cum
 ### Validación contra DTD
 **Comando/Pasos ejecutados:**
 Se comprobó la integridad estructural del documento. La ausencia de subrayados rojos y el panel de "Problems" de VS Code confirman que el XML sigue las reglas del DTD.
+(Ver captura de referencia en la sección de CPU).
 
 ## 3. Proceso de validación
 
@@ -164,6 +174,7 @@ Se comprobó la integridad estructural del documento. La ausencia de subrayados 
 **Comando/Pasos ejecutados:**
 Se asoció el esquema XSD al archivo XML mediante el atributo xsi:noNamespaceSchemaLocation.
 Se verificó que los tipos de datos (fechas, booleanos y valores numéricos) cumplen con las restricciones del esquema. La validación es positiva al no reportar errores el editor.
+(Ver captura de referencia en la sección de CPU).
 
 
 # Validación del archivo teclado.xml
@@ -185,6 +196,7 @@ Se verificó que los tipos de datos (fechas, booleanos y valores numéricos) cum
 ### Validación contra DTD
 **Comando/Pasos ejecutados:**
 Se comprobó la integridad estructural del documento. La ausencia de subrayados rojos y el panel de "Problems" de VS Code confirman que el XML sigue las reglas del DTD.
+(Ver captura de referencia en la sección de CPU).
 
 ## 3. Proceso de validación
 
@@ -192,3 +204,4 @@ Se comprobó la integridad estructural del documento. La ausencia de subrayados 
 **Comando/Pasos ejecutados:**
 Se asoció el esquema XSD al archivo XML mediante el atributo xsi:noNamespaceSchemaLocation.
 Se verificó que los tipos de datos (fechas, booleanos y valores numéricos) cumplen con las restricciones del esquema. La validación es positiva al no reportar errores el editor.
+(Ver captura de referencia en la sección de CPU).
