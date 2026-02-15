@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<almacenamiento_volatil tienda="JB" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!DOCTYPE almacenamiento_volatil SYSTEM "ram.dtd">
+<almacenamiento_volatil tienda="JB" >
     <inventario categoria="Memorias RAM" fechaActualizacion="2026-02-13">
 
         <fabricante nombre="Kingston">

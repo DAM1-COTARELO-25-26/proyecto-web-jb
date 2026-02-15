@@ -1,3 +1,4 @@
+
 <!ELEMENT tienda (inventario)>
 <!ATTLIST tienda 
           nombre CDATA #REQUIRED

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<infraestructura_placa tienda="JB" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!DOCTYPE infraestructura_placa SYSTEM "placa_base.dtd">
+<infraestructura_placa tienda="JB" >
     <inventario categoria="Placas Base" fechaActualizacion="2026-02-12">
 
         <fabricante nombre="MSI">

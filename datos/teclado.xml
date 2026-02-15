@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<perifericos_entrada tienda="JB" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<!DOCTYPE perifericos_entrada SYSTEM "teclado.dtd">
+<perifericos_entrada tienda="JB" >
     <inventario categoria="Teclados" fechaActualizacion="2026-02-13">
 
         <fabricante nombre="Corsair">

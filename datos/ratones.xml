@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<perifericos_puntero tienda="JB" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<!DOCTYPE perifericos_puntero SYSTEM "ratones.dtd">
+<perifericos_puntero tienda="JB">
     <inventario categoria="Ratones" fechaActualizacion="2026-02-13">
 
         <fabricante nombre="Logitech">
