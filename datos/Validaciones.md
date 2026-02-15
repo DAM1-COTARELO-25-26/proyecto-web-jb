@@ -4,24 +4,28 @@
 
 ### Validación DTD
 - Herramienta: Visual Studio Code (XML by Red Hat)
-- Versión: v0.27.0
+- Versión: 1.109.3 (IDE)
+- Método: Validación en tiempo real mediante el motor de análisis sintáctico del IDE.
 
 ### Validación XSD
 - Herramienta: xmllint (libxml2)
-- Versión: 2.9.10
+- Versión: 1.109.3 (IDE)
+- Método: Validación en tiempo real mediante el motor de análisis sintáctico del IDE.
 
 ## 2. Proceso de validación
 
 ### Validación contra DTD
 **Comando/Pasos ejecutados:**
-Inclusión de la referencia <!DOCTYPE tienda SYSTEM "cpu.dtd"> y comprobación de errores en el editor.
+Se comprobó la integridad estructural del documento. La ausencia de subrayados rojos y el panel de "Problems" de VS Code confirman que el XML sigue las reglas del DTD.
+![Captura validación dtd](../img/validacion-dtd.png)
 
 ## 3. Proceso de validación
 
 ### Validación contra XSD
 **Comando/Pasos ejecutados:**
-xmllint --schema cpu.xsd cpu.xml --noout
-
+Se asoció el esquema XSD al archivo XML mediante el atributo xsi:noNamespaceSchemaLocation.
+Se verificó que los tipos de datos (fechas, booleanos y valores numéricos) cumplen con las restricciones del esquema. La validación es positiva al no reportar errores el editor.
+![Captura validación xsd](../img/validacion-xsd.png)
 
 # Validación del archivo fuentes.xml
 
@@ -29,21 +33,28 @@ xmllint --schema cpu.xsd cpu.xml --noout
 
 ### Validación DTD
 - Herramienta: Visual Studio Code
+- Versión: 1.109.3 (IDE)
+- Método: Validación en tiempo real mediante el motor de análisis sintáctico del IDE.
 
 ### Validación XSD
-- Herramienta: xmllint
+- Herramienta: Visual Studio Code
+- Versión: 1.109.3 (IDE)
+- Método: Validación en tiempo real mediante el motor de análisis sintáctico del IDE.
 
 ## 2. Proceso de validación
 
 ### Validación contra DTD
 **Comando/Pasos ejecutados:**
-Verificación de los atributos booleanos modular y disponible.
+Se comprobó la integridad estructural del documento. La ausencia de subrayados rojos y el panel de "Problems" de VS Code confirman que el XML sigue las reglas del DTD.
+(Ver captura de referencia en la sección de CPU).
 
 ## 3. Proceso de validación
 
 ### Validación contra XSD
 **Comando/Pasos ejecutados:**
-xmllint --schema fuentes.xsd fuentes.xml --noout
+Se asoció el esquema XSD al archivo XML mediante el atributo xsi:noNamespaceSchemaLocation.
+Se verificó que los tipos de datos (fechas, booleanos y valores numéricos) cumplen con las restricciones del esquema. La validación es positiva al no reportar errores el editor.
+(Ver captura de referencia en la sección de CPU).
 
 
 # Validación del archivo grafica.xml
@@ -52,21 +63,28 @@ xmllint --schema fuentes.xsd fuentes.xml --noout
 
 ### Validación DTD
 - Herramienta: Visual Studio Code
+- Versión: 1.109.3 (IDE)
+- Método: Validación en tiempo real mediante el motor de análisis sintáctico del IDE.
 
 ### Validación XSD
-- Herramienta: xmllint
+- Herramienta: Visual Studio Code
+- Versión: 1.109.3 (IDE)
+- Método: Validación en tiempo real mediante el motor de análisis sintáctico del IDE.
 
 ## 2. Proceso de validación
 
 ### Validación contra DTD
 **Comando/Pasos ejecutados:**
-Validación del enumerado (NVIDIA | AMD) en el atributo nombre del fabricante.
+Se comprobó la integridad estructural del documento. La ausencia de subrayados rojos y el panel de "Problems" de VS Code confirman que el XML sigue las reglas del DTD.
+(Ver captura de referencia en la sección de CPU).
 
 ## 3. Proceso de validación
 
 ### Validación contra XSD
 **Comando/Pasos ejecutados:**
-xmllint --schema grafica.xsd grafica.xml --noout
+Se asoció el esquema XSD al archivo XML mediante el atributo xsi:noNamespaceSchemaLocation.
+Se verificó que los tipos de datos (fechas, booleanos y valores numéricos) cumplen con las restricciones del esquema. La validación es positiva al no reportar errores el editor.
+(Ver captura de referencia en la sección de CPU).
 
 
 # Validación del archivo placa_base.xml
@@ -74,22 +92,29 @@ xmllint --schema grafica.xsd grafica.xml --noout
 ## 1. Herramientas utilizadas
 
 ### Validación DTD
-- Herramienta: Visual Studio Code
+- Herramienta: Visual Studio Code (XML by Red Hat)
+- Versión: 1.109.3 (IDE)
+- Método: Validación en tiempo real mediante el motor de análisis sintáctico del IDE.
 
 ### Validación XSD
-- Herramienta: xmllint
+- Herramienta: Visual Studio Code (XML by Red Hat)
+- Versión: 1.109.3 (IDE)
+- Método: Validación en tiempo real mediante el motor de análisis sintáctico del IDE.
 
 ## 2. Proceso de validación
 
 ### Validación contra DTD
 **Comando/Pasos ejecutados:**
-Vinculación con placa_base.dtd y verificación de la estructura de especificaciones.
+Se comprobó la integridad estructural del documento. La ausencia de subrayados rojos y el panel de "Problems" de VS Code confirman que el XML sigue las reglas del DTD.
+(Ver captura de referencia en la sección de CPU).
 
 ## 3. Proceso de validación
 
 ### Validación contra XSD
 **Comando/Pasos ejecutados:**
-xmllint --schema placas_base.xsd placa_base.xml --noout
+Se asoció el esquema XSD al archivo XML mediante el atributo xsi:noNamespaceSchemaLocation.
+Se verificó que los tipos de datos (fechas, booleanos y valores numéricos) cumplen con las restricciones del esquema. La validación es positiva al no reportar errores el editor.
+(Ver captura de referencia en la sección de CPU).
 
 
 # Validación del archivo ram.xml
@@ -97,22 +122,29 @@ xmllint --schema placas_base.xsd placa_base.xml --noout
 ## 1. Herramientas utilizadas
 
 ### Validación DTD
-- Herramienta: Visual Studio Code
+- Herramienta: Visual Studio Code (XML by Red Hat)
+- Versión: 1.109.3 (IDE)
+- Método: Validación en tiempo real mediante el motor de análisis sintáctico del IDE.
 
 ### Validación XSD
-- Herramienta: xmllint
+- Herramienta: Visual Studio Code (XML by Red Hat)
+- Versión: 1.109.3 (IDE)
+- Método: Validación en tiempo real mediante el motor de análisis sintáctico del IDE.
 
 ## 2. Proceso de validación
 
 ### Validación contra DTD
 **Comando/Pasos ejecutados:**
-Verificación de los atributos fijos unidad="GB" y unidad="MHz".
+Se comprobó la integridad estructural del documento. La ausencia de subrayados rojos y el panel de "Problems" de VS Code confirman que el XML sigue las reglas del DTD.
+(Ver captura de referencia en la sección de CPU).
 
 ## 3. Proceso de validación
 
 ### Validación contra XSD
 **Comando/Pasos ejecutados:**
-xmllint --schema ram.xsd ram.xml --noout
+Se asoció el esquema XSD al archivo XML mediante el atributo xsi:noNamespaceSchemaLocation.
+Se verificó que los tipos de datos (fechas, booleanos y valores numéricos) cumplen con las restricciones del esquema. La validación es positiva al no reportar errores el editor.
+(Ver captura de referencia en la sección de CPU).
 
 
 # Validación del archivo ratones.xml
@@ -121,24 +153,28 @@ xmllint --schema ram.xsd ram.xml --noout
 
 ### Validación DTD
 - Herramienta: Visual Studio Code (XML by Red Hat)
-- Versión: v0.27.0
+- Versión: 1.109.3 (IDE)
+- Método: Validación en tiempo real mediante el motor de análisis sintáctico del IDE.
 
 ### Validación XSD
-- Herramienta: xmllint
-- Versión: 2.9.10
+- Herramienta: Visual Studio Code (XML by Red Hat)
+- Versión: 1.109.3 (IDE)
+- Método: Validación en tiempo real mediante el motor de análisis sintáctico del IDE.
 
 ## 2. Proceso de validación
 
 ### Validación contra DTD
 **Comando/Pasos ejecutados:**
-Se utilizó la declaración <!DOCTYPE perifericos_puntero SYSTEM "ratones.dtd">. Se validó que cada elemento <raton> contuviera los campos obligatorios de DPI y Peso con sus respectivas unidades fijas.
+Se comprobó la integridad estructural del documento. La ausencia de subrayados rojos y el panel de "Problems" de VS Code confirman que el XML sigue las reglas del DTD.
+(Ver captura de referencia en la sección de CPU).
 
 ## 3. Proceso de validación
 
 ### Validación contra XSD
 **Comando/Pasos ejecutados:**
-xmllint --schema ratones.xsd ratones.xml --noout  
-Se validó que los valores de dpi_max y peso fueran de tipo entero y que el atributo disponible fuera booleano.
+Se asoció el esquema XSD al archivo XML mediante el atributo xsi:noNamespaceSchemaLocation.
+Se verificó que los tipos de datos (fechas, booleanos y valores numéricos) cumplen con las restricciones del esquema. La validación es positiva al no reportar errores el editor.
+(Ver captura de referencia en la sección de CPU).
 
 
 # Validación del archivo teclado.xml
@@ -146,22 +182,26 @@ Se validó que los valores de dpi_max y peso fueran de tipo entero y que el atri
 ## 1. Herramientas utilizadas
 
 ### Validación DTD
-- Herramienta: Visual Studio Code
-- Versión: v0.27.0
+- Herramienta: Visual Studio Code (XML by Red Hat)
+- Versión: 1.109.3 (IDE)
+- Método: Validación en tiempo real mediante el motor de análisis sintáctico del IDE.
 
 ### Validación XSD
-- Herramienta: xmllint
-- Versión: 2.9.10
+- Herramienta: Visual Studio Code (XML by Red Hat)
+- Versión: 1.109.3 (IDE)
+- Método: Validación en tiempo real mediante el motor de análisis sintáctico del IDE.
 
 ## 2. Proceso de validación
 
 ### Validación contra DTD
 **Comando/Pasos ejecutados:**
-Se vinculó el archivo teclado.dtd al XML. Se comprobó que el atributo rgb solo aceptara los valores "true" o "false" definidos en el DTD.
+Se comprobó la integridad estructural del documento. La ausencia de subrayados rojos y el panel de "Problems" de VS Code confirman que el XML sigue las reglas del DTD.
+(Ver captura de referencia en la sección de CPU).
 
 ## 3. Proceso de validación
 
 ### Validación contra XSD
 **Comando/Pasos ejecutados:**
-xmllint --schema teclado.xsd teclado.xml --noout  
-Se verificó que el elemento <estado> fuera un entero no negativo (xs:nonNegativeInteger) y que las fechas de registro siguieran el formato ISO.
+Se asoció el esquema XSD al archivo XML mediante el atributo xsi:noNamespaceSchemaLocation.
+Se verificó que los tipos de datos (fechas, booleanos y valores numéricos) cumplen con las restricciones del esquema. La validación es positiva al no reportar errores el editor.
+(Ver captura de referencia en la sección de CPU).
