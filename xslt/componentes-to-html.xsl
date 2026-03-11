@@ -7,39 +7,67 @@
         <html lang="es">
             <head>
                 <meta charset="UTF-8" />
-                <title>Catálogo de Componentes - Proyecto JB</title>
+                <title>Catálogo de Gráficas - <xsl:value-of select="tienda/@nombre" /></title>
                 <link rel="stylesheet" href="../css/menu.css" />
                 <link rel="stylesheet" href="../css/tablas.css" />
-                <link rel="stylesheet" href="../css/formulario.css" />
             </head>
             <body>
                 <header>
-                    <h1>Panel de Componentes</h1>
+                    <h1><xsl:value-of select="tienda/@nombre" /> - Inventario</h1>
+                    <p>Total de tarjetas en catálogo: <xsl:value-of select="count(//tarjeta)" /></p>
                 </header>
 
                 <main>
                     <section>
-                        <h2>Listado de Productos</h2>
-                        <div class="contenedor-productos">
-                            <xsl:apply-templates select="//producto" />
-                        </div>
+                        <h2>Listado de Tarjetas Gráficas</h2>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Modelo</th>
+                                    <th>Fabricante</th>
+                                    <th>VRAM</th>
+                                    <th>Precio</th>
+                                    <th>Disponibilidad</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <xsl:for-each select="//tarjeta">
+                                    <xsl:sort select="precio" data-type="number" order="descending" />
+                                
+                                <tr>
+                                        <td>
+                                            <strong>
+                                                <xsl:value-of select="modelo" />
+                                            </strong>
+                                        </td>
+                                        <td>
+                                            <xsl:value-of select="../@nombre" />
+                                        </td>
+                                        <td><xsl:value-of select="especificaciones/vram" /> GB</td>
+                                        <td><xsl:value-of select="precio" /> €</td>
+                                        <td>
+                                            <xsl:choose>
+                                                <xsl:when test="@disponible = 'true'">
+                                                    <span style="color: green; font-weight: bold;">
+        Disponible</span>
+                                                </xsl:when>
+                                                <xsl:otherwise>
+                                                    <span style="color: red;">Sin Stock</span>
+                                                </xsl:otherwise>
+                                            </xsl:choose>
+                                        </td>
+                                    </tr>
+                                </xsl:for-each>
+                            </tbody>
+                        </table>
                     </section>
                 </main>
 
                 <footer>
-                    <p>DAM1 - Proyecto Web JB 2026</p>
+                    <p>Ubicación: <xsl:value-of select="tienda/@ubicacion" /> | Actualizado el: <xsl:value-of
+                            select="//inventario/@fechaActualizacion" /></p>
                 </footer>
             </body>
         </html>
     </xsl:template>
-
-    <xsl:template match="producto">
-        <article class="tarjeta-producto">
-            <h3>
-                <xsl:value-of select="nombre" />
-            </h3>
-            <p>Marca: <xsl:value-of select="marca" /></p>
-        </article>
-    </xsl:template>
-
 </xsl:stylesheet>
