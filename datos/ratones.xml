@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xslt/ratones-to-html.xsl"?>
 <!DOCTYPE perifericos_puntero SYSTEM "ratones.dtd">
 <perifericos_puntero tienda="JB">
     <inventario categoria="Ratones" fechaActualizacion="2026-02-13">
