@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="../xslt/ratones-to-html.xsl"?>
 
 <perifericos_puntero tienda="JB">
-    <inventario categoria="Ratones" fechaActualizacion="2026-02-13">
+    <inventario categoria="Ratones" fechaActualizacion="2026-03-15">
 
         <fabricante nombre="Logitech">
             <raton id="MOU-LOG-001" conexion="Cable USB" disponible="true">
@@ -14,7 +14,6 @@
                 <precio moneda="EUR">59.00</precio>
                 <fechaRegistro>2025-05-10</fechaRegistro>
             </raton>
-
             <raton id="MOU-LOG-002" conexion="Inalámbrico" disponible="true">
                 <modelo>Logitech G Pro X Superlight 2</modelo>
                 <especificaciones>
@@ -24,7 +23,6 @@
                 <precio moneda="EUR">169.00</precio>
                 <fechaRegistro>2026-01-15</fechaRegistro>
             </raton>
-
             <raton id="MOU-LOG-003" conexion="Inalámbrico" disponible="true">
                 <modelo>Logitech G305 Lightspeed</modelo>
                 <especificaciones>
@@ -34,7 +32,15 @@
                 <precio moneda="EUR">49.00</precio>
                 <fechaRegistro>2025-08-12</fechaRegistro>
             </raton>
-
+            <raton id="MOU-LOG-004" conexion="Inalámbrico" disponible="true">
+                <modelo>Logitech G903 Lightspeed</modelo>
+                <especificaciones>
+                    <dpi_max unidad="DPI">25600</dpi_max>
+                    <peso unidad="g">110</peso>
+                </especificaciones>
+                <precio moneda="EUR">125.00</precio>
+                <fechaRegistro>2025-09-20</fechaRegistro>
+            </raton>
             <raton id="MOU-LOG-005" conexion="Bluetooth / Logi Bolt" disponible="true">
                 <modelo>Logitech MX Master 3S</modelo>
                 <especificaciones>
@@ -44,7 +50,42 @@
                 <precio moneda="EUR">119.00</precio>
                 <fechaRegistro>2025-11-20</fechaRegistro>
             </raton>
-
+            <raton id="MOU-LOG-006" conexion="Bluetooth" disponible="true">
+                <modelo>Logitech MX Vertical</modelo>
+                <especificaciones>
+                    <dpi_max unidad="DPI">4000</dpi_max>
+                    <peso unidad="g">135</peso>
+                </especificaciones>
+                <precio moneda="EUR">109.00</precio>
+                <fechaRegistro>2025-04-18</fechaRegistro>
+            </raton>
+            <raton id="MOU-LOG-007" conexion="Cable USB" disponible="true">
+                <modelo>Logitech G402 Hyperion Fury</modelo>
+                <especificaciones>
+                    <dpi_max unidad="DPI">4000</dpi_max>
+                    <peso unidad="g">108</peso>
+                </especificaciones>
+                <precio moneda="EUR">35.00</precio>
+                <fechaRegistro>2025-02-10</fechaRegistro>
+            </raton>
+            <raton id="MOU-LOG-008" conexion="Inalámbrico" disponible="true">
+                <modelo>Logitech G502 X PLUS</modelo>
+                <especificaciones>
+                    <dpi_max unidad="DPI">25600</dpi_max>
+                    <peso unidad="g">106</peso>
+                </especificaciones>
+                <precio moneda="EUR">145.00</precio>
+                <fechaRegistro>2026-02-01</fechaRegistro>
+            </raton>
+            <raton id="MOU-LOG-009" conexion="Cable USB" disponible="true">
+                <modelo>Logitech G203 Lightsync</modelo>
+                <especificaciones>
+                    <dpi_max unidad="DPI">8000</dpi_max>
+                    <peso unidad="g">85</peso>
+                </especificaciones>
+                <precio moneda="EUR">29.00</precio>
+                <fechaRegistro>2025-07-22</fechaRegistro>
+            </raton>
             <raton id="MOU-LOG-010" conexion="Inalámbrico / BT" disponible="false">
                 <modelo>Logitech G705 Aurora</modelo>
                 <especificaciones>
@@ -66,7 +107,6 @@
                 <precio moneda="EUR">169.00</precio>
                 <fechaRegistro>2025-12-01</fechaRegistro>
             </raton>
-
             <raton id="MOU-RAZ-002" conexion="Cable USB" disponible="true">
                 <modelo>Razer Basilisk V3</modelo>
                 <especificaciones>
@@ -76,7 +116,6 @@
                 <precio moneda="EUR">79.00</precio>
                 <fechaRegistro>2025-12-01</fechaRegistro>
             </raton>
-
             <raton id="MOU-RAZ-003" conexion="Inalámbrico" disponible="true">
                 <modelo>Razer Viper Ultimate</modelo>
                 <especificaciones>
@@ -86,7 +125,6 @@
                 <precio moneda="EUR">129.00</precio>
                 <fechaRegistro>2025-10-15</fechaRegistro>
             </raton>
-
             <raton id="MOU-RAZ-004" conexion="Cable USB" disponible="true">
                 <modelo>Razer Naga X</modelo>
                 <especificaciones>
@@ -96,7 +134,6 @@
                 <precio moneda="EUR">89.00</precio>
                 <fechaRegistro>2025-10-15</fechaRegistro>
             </raton>
-
             <raton id="MOU-RAZ-005" conexion="Inalámbrico / Pilas" disponible="true">
                 <modelo>Razer Orochi V2</modelo>
                 <especificaciones>
@@ -106,7 +143,6 @@
                 <precio moneda="EUR">69.00</precio>
                 <fechaRegistro>2025-08-20</fechaRegistro>
             </raton>
-
             <raton id="MOU-RAZ-006" conexion="Cable USB" disponible="true">
                 <modelo>Razer Viper Mini</modelo>
                 <especificaciones>
@@ -116,7 +152,6 @@
                 <precio moneda="EUR">39.00</precio>
                 <fechaRegistro>2025-08-20</fechaRegistro>
             </raton>
-
             <raton id="MOU-RAZ-007" conexion="Inalámbrico" disponible="true">
                 <modelo>Razer Cobra Pro</modelo>
                 <especificaciones>
@@ -126,7 +161,6 @@
                 <precio moneda="EUR">149.00</precio>
                 <fechaRegistro>2026-01-05</fechaRegistro>
             </raton>
-
             <raton id="MOU-RAZ-008" conexion="Inalámbrico" disponible="true">
                 <modelo>Razer Basilisk Ultimate</modelo>
                 <especificaciones>
@@ -136,7 +170,6 @@
                 <precio moneda="EUR">139.00</precio>
                 <fechaRegistro>2025-06-15</fechaRegistro>
             </raton>
-
             <raton id="MOU-RAZ-009" conexion="Cable USB" disponible="true">
                 <modelo>Razer Naga Trinity</modelo>
                 <especificaciones>
@@ -146,7 +179,6 @@
                 <precio moneda="EUR">99.00</precio>
                 <fechaRegistro>2025-06-15</fechaRegistro>
             </raton>
-
             <raton id="MOU-RAZ-010" conexion="Inalámbrico" disponible="false">
                 <modelo>Razer Viper V2 Pro</modelo>
                 <especificaciones>
