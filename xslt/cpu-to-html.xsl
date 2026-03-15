@@ -12,6 +12,29 @@
                 <link rel="stylesheet" href="css/style.css" />
             </head>
             <body>
+                <header class="cabecera">
+                <div class="logo">
+                    <img src="../img/logo.png" alt="Logo de la tienda"/>
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="/index.html">Inicio</a></li>
+                        <li class="item-menu">
+                            <a href="#">Componentes</a>
+                            <ul class="submenu">
+                                <li><a href="/pages/placa_base.html">Placa Base</a></li>
+                                <li><a href="/pages/Procesador.html">Procesador</a></li>
+                                <li><a href="/pages/grafica.html">Tarjeta Gráfica</a></li>
+                                <li><a href="/pages/Memorias_Ram.html">Memoria RAM</a></li>
+                                <li><a href="/pages/Fuentes_alimentacion.html">Fuente de Alimentación</a></li>
+                                <li><a href="/pages/Perifericos.html">Periféricos</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/pages/Contacto.html">Contactos</a></li>
+                        <li><a href="/pages/Informacion.html">Información</a></li>
+                    </ul>
+                </nav>
+            </header>
                 <header>
                     <h1><xsl:value-of select="tienda/@nombre" /> - Catálogo de CPUs</h1>
                     <p>Ubicación: <xsl:value-of select="tienda/@ubicacion" /></p>
