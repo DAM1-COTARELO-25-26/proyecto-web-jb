@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../xslt/teclados-to-html.xsl"?>
-<!DOCTYPE perifericos_entrada SYSTEM "teclado.dtd">
-<perifericos_entrada tienda="JB" >
-    <inventario categoria="Teclados" fechaActualizacion="2026-02-13">
+
+<perifericos_entrada tienda="JB">
+    <inventario categoria="Teclados" fechaActualizacion="2026-03-15">
 
         <fabricante nombre="Corsair">
             <teclado id="KEY-COR-001" conexion="Cable" rgb="true">
@@ -15,7 +15,6 @@
                 <estado disponible="true">15</estado>
                 <fechaRegistro>2025-11-10</fechaRegistro>
             </teclado>
-
             <teclado id="KEY-COR-002" conexion="Cable" rgb="true">
                 <modelo>Corsair K100 RGB</modelo>
                 <especificaciones>
@@ -26,7 +25,76 @@
                 <estado disponible="true">8</estado>
                 <fechaRegistro>2025-12-05</fechaRegistro>
             </teclado>
-
+            <teclado id="KEY-COR-003" conexion="Wireless" rgb="true">
+                <modelo>Corsair K100 AIR Wireless</modelo>
+                <especificaciones>
+                    <switch>Ultra Low Profile Tactile</switch>
+                    <formato>Completo (100%)</formato>
+                </especificaciones>
+                <precio moneda="EUR">299.00</precio>
+                <estado disponible="true">5</estado>
+                <fechaRegistro>2026-01-10</fechaRegistro>
+            </teclado>
+            <teclado id="KEY-COR-004" conexion="Wireless" rgb="true">
+                <modelo>Corsair K65 Plus Wireless</modelo>
+                <especificaciones>
+                    <switch>Corsair MLX Red</switch>
+                    <formato>75% Compacto</formato>
+                </especificaciones>
+                <precio moneda="EUR">159.00</precio>
+                <estado disponible="true">12</estado>
+                <fechaRegistro>2026-02-14</fechaRegistro>
+            </teclado>
+            <teclado id="KEY-COR-005" conexion="Cable" rgb="true">
+                <modelo>Corsair K70 CORE</modelo>
+                <especificaciones>
+                    <switch>Corsair Red Linear</switch>
+                    <formato>Completo (100%)</formato>
+                </especificaciones>
+                <precio moneda="EUR">99.00</precio>
+                <estado disponible="true">20</estado>
+                <fechaRegistro>2025-08-20</fechaRegistro>
+            </teclado>
+            <teclado id="KEY-COR-006" conexion="Wireless" rgb="true">
+                <modelo>Corsair K70 PRO Mini</modelo>
+                <especificaciones>
+                    <switch>Cherry MX Speed</switch>
+                    <formato>60% Wireless</formato>
+                </especificaciones>
+                <precio moneda="EUR">189.00</precio>
+                <estado disponible="true">10</estado>
+                <fechaRegistro>2025-09-05</fechaRegistro>
+            </teclado>
+            <teclado id="KEY-COR-007" conexion="Cable" rgb="true">
+                <modelo>Corsair K60 RGB Pro</modelo>
+                <especificaciones>
+                    <switch>Cherry Viola</switch>
+                    <formato>Completo (100%)</formato>
+                </especificaciones>
+                <precio moneda="EUR">85.00</precio>
+                <estado disponible="true">14</estado>
+                <fechaRegistro>2025-06-15</fechaRegistro>
+            </teclado>
+            <teclado id="KEY-COR-008" conexion="Cable" rgb="false">
+                <modelo>Corsair K63 Mechanical</modelo>
+                <especificaciones>
+                    <switch>Cherry MX Red</switch>
+                    <formato>TKL (80%)</formato>
+                </especificaciones>
+                <precio moneda="EUR">89.00</precio>
+                <estado disponible="true">7</estado>
+                <fechaRegistro>2025-03-12</fechaRegistro>
+            </teclado>
+            <teclado id="KEY-COR-009" conexion="Cable" rgb="true">
+                <modelo>Corsair K55 RGB PRO XT</modelo>
+                <especificaciones>
+                    <switch>Membrana silenciosa</switch>
+                    <formato>Completo (100%)</formato>
+                </especificaciones>
+                <precio moneda="EUR">75.00</precio>
+                <estado disponible="true">25</estado>
+                <fechaRegistro>2025-05-30</fechaRegistro>
+            </teclado>
             <teclado id="KEY-COR-010" conexion="Wireless" rgb="true">
                 <modelo>Corsair K57 RGB Wireless</modelo>
                 <especificaciones>
@@ -50,7 +118,6 @@
                 <estado disponible="true">25</estado>
                 <fechaRegistro>2026-01-15</fechaRegistro>
             </teclado>
-
             <teclado id="KEY-NEW-002" conexion="Cable" rgb="true">
                 <modelo>Newskill Serike TKL Ivory</modelo>
                 <especificaciones>
@@ -61,7 +128,6 @@
                 <estado disponible="true">18</estado>
                 <fechaRegistro>2026-01-15</fechaRegistro>
             </teclado>
-
             <teclado id="KEY-NEW-003" conexion="Cable" rgb="true">
                 <modelo>Newskill Suiko Ivory</modelo>
                 <especificaciones>
@@ -72,7 +138,6 @@
                 <estado disponible="true">12</estado>
                 <fechaRegistro>2025-09-10</fechaRegistro>
             </teclado>
-
             <teclado id="KEY-NEW-004" conexion="Cable" rgb="true">
                 <modelo>Newskill Pyros RGB</modelo>
                 <especificaciones>
@@ -83,7 +148,6 @@
                 <estado disponible="true">30</estado>
                 <fechaRegistro>2025-08-05</fechaRegistro>
             </teclado>
-
             <teclado id="KEY-NEW-005" conexion="Cable" rgb="true">
                 <modelo>Newskill Serike V2</modelo>
                 <especificaciones>
@@ -94,7 +158,6 @@
                 <estado disponible="true">20</estado>
                 <fechaRegistro>2026-02-01</fechaRegistro>
             </teclado>
-
             <teclado id="KEY-NEW-006" conexion="Cable" rgb="true">
                 <modelo>Newskill Suiko Pro</modelo>
                 <especificaciones>
@@ -105,7 +168,6 @@
                 <estado disponible="true">5</estado>
                 <fechaRegistro>2025-12-10</fechaRegistro>
             </teclado>
-
             <teclado id="KEY-NEW-007" conexion="Cable" rgb="true">
                 <modelo>Newskill Pyros Pro Ivory</modelo>
                 <especificaciones>
@@ -116,7 +178,6 @@
                 <estado disponible="true">14</estado>
                 <fechaRegistro>2026-01-20</fechaRegistro>
             </teclado>
-
             <teclado id="KEY-NEW-008" conexion="Cable" rgb="true">
                 <modelo>Newskill Serike V2 TKL</modelo>
                 <especificaciones>
@@ -127,7 +188,6 @@
                 <estado disponible="true">22</estado>
                 <fechaRegistro>2026-02-01</fechaRegistro>
             </teclado>
-
             <teclado id="KEY-NEW-009" conexion="Cable" rgb="true">
                 <modelo>Newskill Serike TKL Pro</modelo>
                 <especificaciones>
@@ -138,7 +198,6 @@
                 <estado disponible="true">10</estado>
                 <fechaRegistro>2025-07-15</fechaRegistro>
             </teclado>
-
             <teclado id="KEY-NEW-010" conexion="Cable" rgb="true">
                 <modelo>Newskill Suiko RGB</modelo>
                 <especificaciones>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     
-    <xsl:output method="html" doctype-system="about:legacy-compat" encoding="UTF-8" indent="yes" />
+    <xsl:output method="html"  encoding="UTF-8" indent="yes" />
 
     <xsl:template match="/">
         <html lang="es">
@@ -32,7 +32,7 @@
             <meta charset="UTF-8"/>
             <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
             <title>Catálogo - <xsl:value-of select="perifericos_entrada/inventario/@categoria"/></title>
-            <link rel="stylesheet" href="css/style.css"/>
+            <link rel="stylesheet" href="../css/tablas.css"/>
         </head>
         <body>
             <header>
