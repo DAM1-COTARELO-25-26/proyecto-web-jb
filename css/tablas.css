@@ -2,7 +2,7 @@ body {
     background-color: #111;
     color: white;
     font-family: Arial, sans-serif;
-margin: 0; 
+    margin: 0; 
     padding: 0; 
     display: flex;
     flex-direction: column;
@@ -14,125 +14,124 @@ margin: 0;
     flex: 1;      /* Esto empuja el footer hacia abajo */
     padding: 40px; /* Aquí es donde realmente quieres el espacio para la tabla */
 }
-  .cabecera {
-  background-color: #161b22;
-  display: flex;
-  align-items: center;
-   justify-content: space-between; /* separa logo y menú */
-  padding: 10px 20px;
+
+.cabecera {
+    background-color: #161b22;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* separa logo y menú */
+    padding: 10px 20px;
 }
 
 .logo img {
-  height: 100px;
- 
-   
+    height: 100px;
 }
 
 /* Contenedor principal del menú */
 .menu {
-   flex: 1; /* el menú ocupa el espacio disponible */
-  display: flex;
-  justify-content: center; /* centra el menú horizontalmente */
-  background-color: #0c0c0c;
+    flex: 1; /* el menú ocupa el espacio disponible */
+    display: flex;
+    justify-content: center; /* centra el menú horizontalmente */
+    background-color: #0c0c0c;
 }
 
-
 .menu ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 /* Elementos principales del menú */
 .menu > ul > li {
-  display: inline-block; /* Coloca los items uno al lado del otro */
-  position: relative;    /* Necesario para posicionar el submenu */
+    display: inline-block; /* Coloca los items uno al lado del otro */
+    position: relative;    /* Necesario para posicionar el submenu */
 }
 
 /* Enlaces generales del menú */
 .menu a {
-  color: #e6e6e6;
-  padding: 14px 18px;
-  text-decoration: none;
-  display: block; /* Hace clicable todo el área */
+    color: #e6e6e6;
+    padding: 14px 18px;
+    text-decoration: none;
+    display: block; /* Hace clicable todo el área */
 }
 
 /* Efecto hover */
 .menu a:hover {
-  background-color: blue;
+    background-color: blue;
 }
 
 /* Submenú oculto por defecto */
 .submenu {
-  display: none; /* Ocultar submenu */
-  position: absolute; /* Posiciona de forma absoluta respecto al padre */
-  background-color: #0c0c0c;
-  min-width: 200px; /* Ancho mínimo del submenú */
-  top: 100%; /* Posiciona debajo del elemento padre */
-  left: 0; /* Alinea con el borde izquierdo */
-  z-index: 1000; /* Asegura que se muestre encima de otros elementos */
+    display: none; /* Ocultar submenu */
+    position: absolute; /* Posiciona de forma absoluta respecto al padre */
+    background-color: #0c0c0c;
+    min-width: 200px; /* Ancho mínimo del submenú */
+    top: 100%; /* Posiciona debajo del elemento padre */
+    left: 0; /* Alinea con el borde izquierdo */
+    z-index: 1000; /* Asegura que se muestre encima de otros elementos */
 }
 
 /* Muestra el submenú al pasar el ratón */
 .item-menu:hover .submenu {
-  display: block;
+    display: block;
 }
 
 /* Enlaces dentro del submenú */
 .submenu a {
-  display: block;
-  border-bottom: 1px solid #555;
-  padding: 10px;
-  text-align: left;
+    display: block;
+    border-bottom: 1px solid #555;
+    padding: 10px;
+    text-align: left;
 }
 
 /* Hover dentro del submenú */
 .submenu a:hover {
-  background-color: blue;
+    background-color: blue;
 }
-  h1 {
+
+h1 {
     text-align: center;
     margin-bottom: 30px;
-  }
-  
-  table {
+}
+
+table {
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
     background-color: #1a1a1a;
     border-collapse: collapse;
-  }
-  
-  th {
+}
+
+th {
     background-color: blue;
     padding: 15px;
     text-align: left;
-  }
-  
-  td {
+}
+
+td {
     padding: 15px;
     border-bottom: 1px solid #333;
-  }
-  
-  tr:hover {
+}
+
+tr:hover {
     background-color: #222;
-  }
-  
-  td:nth-child(2) {
-    color:	#FFFFFF;
+}
+
+td:nth-child(2) {
+    color:  #FFFFFF;
     font-weight: bold;
-  }
-  
-  a {
+}
+
+a {
     color: blue;
     text-decoration: none;
-  }
-  
-  a:hover {
+}
+
+a:hover {
     text-decoration: underline;
-  }
-  
-  .btn-volver {
+}
+
+.btn-volver {
     display: block;
     width: 150px;
     margin: 30px auto;
@@ -141,66 +140,221 @@ margin: 0;
     color: white;
     text-align: center;
     border-radius: 5px;
-  }
-  
-  .btn-volver:hover {
+}
+
+.btn-volver:hover {
     background-color: #444;
-  }
-  footer {
-  background-color: #161b22;
-  color: #e6e6e6;
-  padding: 30px 50px;
-  margin-top: auto;
-  border-top: 1px solid #333;
+}
+
+footer {
+    background-color: #161b22;
+    color: #e6e6e6;
+    padding: 30px 50px;
+    margin-top: auto;
+    border-top: 1px solid #333;
 }
 
 .footer-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .footer-logo {
-  flex: 0 0 auto;
+    flex: 0 0 auto;
 }
 
 .footer-logo img {
-  height: 50px;
+    height: 50px;
 }
 
 .footer-email {
-  flex: 1;
-  text-align: center;
-  min-width: 200px;
+    flex: 1;
+    text-align: center;
+    min-width: 200px;
 }
 
 .footer-email a {
-  color: #3498db;
-  text-decoration: none;
-  font-size: 16px;
+    color: #3498db;
+    text-decoration: none;
+    font-size: 16px;
 }
 
 .footer-email a:hover {
-  text-decoration: underline;
-  color: #5dade2;
+    text-decoration: underline;
+    color: #5dade2;
 }
 
 .footer-creators {
-  flex: 0 0 auto;
-  text-align: right;
+    flex: 0 0 auto;
+    text-align: right;
 }
 
 .footer-creators p {
-  margin: 0;
-  font-size: 14px;
-  color: #888;
+    margin: 0;
+    font-size: 14px;
+    color: #888;
 }
 
 .footer-creators span {
-  color: #e6e6e6;
-  font-weight: 500;
+    color: #e6e6e6;
+    font-weight: 500;
 }
 
+/* ==============================================================
+   NUEVOS ESTILOS PARA LAS PÁGINAS GENERADAS POR XSLT
+   ============================================================== */
 
+/* Resumen estadístico de la cabecera del catálogo */
+.resumen-estadistico, .estadisticas {
+    background-color: #161b22;
+    padding: 15px 25px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-left: 5px solid blue;
+    text-align: center;
+}
+
+.resumen-estadistico p, .estadisticas p {
+    margin: 5px 0;
+}
+
+/* Grid para mostrar los productos en columnas */
+.grid-productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 25px;
+    padding: 20px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Diseño base de las tarjetas de producto */
+article[class^="tarjeta-"] {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+article[class^="tarjeta-"]:hover {
+    transform: translateY(-5px);
+    border-color: blue;
+    box-shadow: 0 8px 15px rgba(0, 0, 255, 0.15);
+}
+
+/* Cabecera de la tarjeta */
+article[class^="tarjeta-"] header h3 {
+    margin-top: 0;
+    color: #fff;
+    font-size: 1.3rem;
+    border-bottom: 2px solid #333;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+/* Estilos para las listas de especificaciones */
+.especificaciones ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+    color: #ccc;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.especificaciones li strong {
+    color: #fff;
+}
+
+/* Zona de precio y stock abajo de la tarjeta */
+.precio-stock {
+    margin-top: auto;
+    background-color: #111;
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+    border: 1px solid #222;
+}
+
+.precio {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: blue;
+    margin: 0 0 10px 0;
+}
+
+.stock-ok { 
+    color: #2ecc71; 
+    margin: 0;
+    font-weight: bold;
+}
+
+.alerta-stock { 
+    color: #e74c3c; 
+    margin: 0;
+    font-weight: bold;
+}
+
+/* --- CLASES DINÁMICAS INYECTADAS POR XSLT --- */
+
+/* Productos agotados (baja opacidad y borde rojo) */
+.agotado, .cpu-agotada {
+    opacity: 0.5;
+    border-color: #e74c3c !important;
+}
+
+.agotado:hover, .cpu-agotada:hover {
+    box-shadow: 0 8px 15px rgba(231, 76, 60, 0.15);
+}
+
+/* Productos Premium / Destacados (Borde dorado) */
+.gpu-entusiasta, .cpu-destacada, .fuente-premium {
+    border-color: #f1c40f;
+}
+
+.gpu-entusiasta:hover, .cpu-destacada:hover, .fuente-premium:hover {
+    box-shadow: 0 8px 15px rgba(241, 196, 15, 0.15);
+}
+
+.aviso-premium, .aviso-financiacion, .aviso-rendimiento {
+    color: #f1c40f;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* ==============================================================
+   AJUSTES PARA LOS TÍTULOS Y CABECERA DEL CATÁLOGO
+   ============================================================== */
+
+/* Centrar el título principal y el texto superior */
+body > header {
+    text-align: center;
+    padding: 30px 20px 10px;
+}
+
+body > header p {
+    color: #bbb;
+    margin-bottom: 20px;
+}
+
+/* Alinear los títulos de los fabricantes con la cuadrícula de productos */
+.fabricante-section h2 {
+    max-width: 1200px; /* El mismo ancho que la cuadrícula */
+    margin: 40px auto 10px auto; /* Centrado en pantalla */
+    padding: 0 40px; /* Mismo espacio lateral que las tarjetas */
+    color: #fff;
+    font-size: 1.8rem;
+    text-align: left;
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+}
